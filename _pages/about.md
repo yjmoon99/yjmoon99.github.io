@@ -6,6 +6,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Hi, I'm Youngjin Moon
+Researching hardware-efficient AI algorithm & design of AI processor.
+
+I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Technology (KAIST), advised by Professor HOI-JUN YOO in Semiconductor System Lab (SSL).
+
+Research Focus
+• ML Level: Deriving sparsity in weights and KV cache to preserve model accuracy at high sparsity
+• System Level: GPU kernel support for sparse LLMs on existing compute platforms
+• Architecture Level: Novel architectural changes to better support sparsity and improve efficiency
+• Efforts in LLM reasoning, dynamically reconfigurable architecture, and RAG
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
