@@ -24,18 +24,18 @@ repository               : "yjmoon99/yjmoon99.github.io"
 author:
   # Biographic information
   avatar           : "YoungjinMoon_profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Youngjin Moon"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "PhD student at Semiconductor System Lab (SSL), KAIST"
+  location         : "Daejeon, South Korea"
+  employer         : "KAIST"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yjmoon99@kaist.ac.kr" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=as9R5UEAAAAJ&hl=ko&authuser=1"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/yourorcidurl"

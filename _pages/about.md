@@ -30,53 +30,53 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 
 ### Conference Papers
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
 **A 2.67 mJ/frame Video Mamba Accelerator with Importance-aware Redundancy Elimination and SSM Computing Reformulation**
 
-Authors: **<u>Youngjin Moon</u>**, Sangwoo Ha, Soyeon Kim, Junha Ryu, Hoi-Jun Yoo, and Donghyeon Han
+Authors: **Youngjin Moon**, Sangwoo Ha, Soyeon Kim, Junha Ryu, Hoi-Jun Yoo, and Donghyeon Han
 
 IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 
-[Paper](#){: .btn .btn--danger} [Code](#){: .btn}
+[Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 </div>
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
 **NuVPU: A 4.8~9.6 mJ/frame Progressive NTT-based Unified Video Processor for Stable Video Streaming and Processing with Neural Video Codec**
 
-Authors: Soyeon Kim, Hankyul Kwon, Jingu Lee, **<u>Youngjin Moon</u>**, Hongseok Lee, Junha Ryu, Zhamaliddin Kalzhan, Sangyeob Kim, Wooyoung Jo, and Hoi-Jun Yoo
+Authors: Soyeon Kim, Hankyul Kwon, Jingu Lee, **Youngjin Moon**, Hongseok Lee, Junha Ryu, Zhamaliddin Kalzhan, Sangyeob Kim, Wooyoung Jo, and Hoi-Jun Yoo
 
 IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
 
-[Paper](#){: .btn .btn--danger} [Code](#){: .btn}
+[Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 </div>
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb;">
-Authors: Sangmyoung Lee, Seryeong Kim, Jongjun Park, **<u>Youngjin Moon</u>**, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
+Authors: Sangmyoung Lee, Seryeong Kim, Jongjun Park, **Youngjin Moon**, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
 
 IEEE International Symposium on Integrated Circuits and Systems (**ISICAS**), **2025**
 
-[Paper](#){: .btn .btn--danger} [Code](#){: .btn}
+[Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 </div>
 
 ### Journal
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
 **An Energy-Efficient Mamba Accelerator for Real-Time Edge Video Understanding underpinned by Redundancy-Conscious Design**
 
-Authors: **<u>Youngjin Moon</u>**, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo
+Authors: **Youngjin Moon**, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo
 
 IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025**
 
-[Paper](#){: .btn .btn--danger} [Code](#){: .btn}
+[Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 </div>
 
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
 **A 227.1 TOPS/W High Energy-efficiency PNN-based 3D Object Recognition Processor with Spiking Neural Network for Edge Device**
 
-Authors: Sangmyoung Lee, Seryeong Kim, Jongjun Park, **<u>Youngjin Moon</u>**, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
+Authors: Sangmyoung Lee, Seryeong Kim, Jongjun Park, **Youngjin Moon**, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
 
 IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **2025**
 
-[Paper](#){: .btn .btn--danger} [Code](#){: .btn}
+[Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 </div>
