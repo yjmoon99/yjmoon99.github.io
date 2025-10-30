@@ -26,7 +26,7 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 ## Publications
 
 <div class="notice" markdown="1">
-⭐ *I am a huge Star Wars fan, on a personal mission to name my papers with memorable planet names from the prequel/original trilogy* ⭐
+⭐ *Each project I work on carries a unique design philosophy. Giving it a name helps me preserve that philosophy and communicate it more intuitively.* ⭐
 </div>
 
 ### Conference Papers
@@ -40,7 +40,7 @@ IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-*"Where Mamba pushes redundancy to the extreme"*
+*"When Mamba Awakened with SLYTHERIN"*
 </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
@@ -78,7 +78,7 @@ IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-*"Where energy meets efficiency at the edge"*
+*"SLYTHERIN’s tiki-taka of redundancy in Mamba"*
 </div>
 
 
