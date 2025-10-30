@@ -8,7 +8,7 @@ redirect_from:
 ---
 <div style="font-weight: bold; margin-bottom: 0.5em; line-height: 1.2;">
 <span style="font-size: 2.5em;">Hi, I'm Youngjin Moon</span><br>
-<span style="font-size: 1.5em;">Researching <em style="color:rgb(255, 154, 154); font-style: italic;">Hardware-efficient AI algorithm & design of AI processor</em>.</span>
+<span style="font-size: 1.5em;">Toward <em style="color:rgb(255, 154, 154); font-style: italic;">Hardware-efficient AI Architecture</em>.</span>
 </div>
 
 <div class="notice" markdown="1">
