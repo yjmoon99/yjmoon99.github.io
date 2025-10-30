@@ -36,8 +36,8 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 
 <strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Soyeon Kim, Junha Ryu, Hoi-Jun Yoo, and Donghyeon Han
 
-<span style="color: #666; font-size: 0.9em;">Major</span> IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**  
-<span style="background-color: #007bff; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**  
+<span style="background-color: #ffc107; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
@@ -49,8 +49,8 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 
 Soyeon Kim, Hankyul Kwon, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Hongseok Lee, Junha Ryu, Zhamaliddin Kalzhan, Sangyeob Kim, Wooyoung Jo, and Hoi-Jun Yoo
 
-<span style="color: #666; font-size: 0.9em;">Top-Tier</span> IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**  
-<span style="background-color: #007bff; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**  
+<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
@@ -62,8 +62,8 @@ Soyeon Kim, Hankyul Kwon, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Hong
 
 Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
 
-<span style="color: #666; font-size: 0.9em;">Major</span> IEEE International Symposium on Integrated Circuits and Systems (**ISICAS**), **2025**  
-<span style="background-color: #007bff; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+IEEE International Symposium on Integrated Circuits and Systems (**ISICAS**), **2025**  
+<span style="background-color: #ffc107; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
@@ -77,7 +77,8 @@ Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong
 
 <strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo
 
-<span style="color: #666; font-size: 0.9em;">Top-Tier</span> IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025**
+IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025**  
+<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
@@ -90,7 +91,8 @@ Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong
 
 Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
 
-<span style="color: #666; font-size: 0.9em;">Major</span> IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **2025**
+IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **2025**  
+<span style="background-color: #ffc107; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
