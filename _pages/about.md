@@ -15,10 +15,11 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb;">
 **Research Focus**
-- *ML Level:* Deriving sparsity in weights and KV cache to preserve model accuracy at high sparsity
-- *System Level:* GPU kernel support for sparse LLMs on existing compute platforms
+- *ML Level:* Deriving sparsity in weights and activation to preserve model accuracy at high sparsity
+- *System Level:* GPU kernel support for sparse AI on existing compute platforms
 - *Architecture Level:* Novel architectural changes to better support sparsity and improve efficiency
-- Efforts in LLM reasoning, dynamically reconfigurable architecture, and RAG
+- *Circuit Level:* End-to-end chip implementation and post-silicon measurement for performance validation
+- Efforts in HW Efficient LLM, Video AI, dynamically reconfigurable architecture, and RAG
 </div>
 
 ## Publications
