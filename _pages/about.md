@@ -41,7 +41,7 @@ IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-<em style="color: white; background-color: #333; padding: 2px 4px; border-radius: 3px; font-weight: bold; font-style: normal;">"When Mamba Awakened with SLYTHERIN"</em>
+<em style="color: #333; font-weight: bold; font-style: normal;">"When Mamba Awakened with SLYTHERIN"</em>
 </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
@@ -54,7 +54,7 @@ IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-<em style="color: white; background-color: #333; padding: 2px 4px; border-radius: 3px; font-weight: bold; font-style: normal;">"Where Video Codec meets DNN"</em>
+<em style="color: #333; font-weight: bold; font-style: normal;">"Where Video Codec meets DNN"</em>
 </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
@@ -67,7 +67,7 @@ IEEE International Symposium on Integrated Circuits and Systems (**ISICAS**), **
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-<em style="color: white; background-color: #333; padding: 2px 4px; border-radius: 3px; font-weight: bold; font-style: normal;">"Where spiking neurons meet 3D vision"</em>
+<em style="color: #333; font-weight: bold; font-style: normal;">"Where spiking neurons meet 3D vision"</em>
 </div>
 
 ### Journal
@@ -78,11 +78,11 @@ IEEE International Symposium on Integrated Circuits and Systems (**ISICAS**), **
 <strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo
 
 IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025**  
-<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span>
+<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span><span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-<em style="color: white; background-color: #333; padding: 2px 4px; border-radius: 3px; font-weight: bold; font-style: normal;">"SLYTHERIN's tiki-taka of redundancy in Mamba"</em>
+<em style="color: #333; font-weight: bold; font-style: normal;">"SLYTHERIN's tiki-taka of redundancy in Mamba"</em>
 </div>
 
 
@@ -92,11 +92,11 @@ IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025
 Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
 
 IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **2025**  
-<span style="background-color: #ffc107; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span>
+<span style="background-color: #ffc107; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span><span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-<em style="color: white; background-color: #333; padding: 2px 4px; border-radius: 3px; font-weight: bold; font-style: normal;">"Where spiking neurons meet 3D vision"</em>
+<em style="color: #333; font-weight: bold; font-style: normal;">"Where spiking neurons meet 3D vision"</em>
 </div>
 
 
