@@ -7,12 +7,12 @@ redirect_from:
   - /about.html
 ---
 <div style="font-weight: bold; margin-bottom: 0.5em; line-height: 1.2;">
-<span style="font-size: 2.5em;">Hi, I'm Youngjin Moon</span><br>
-<span style="font-size: 1.5em;">Toward <em style="color:rgb(255, 154, 154); font-style: italic;">Hardware-efficient AI Architecture</em>.</span>
+<span style="font-size: 2.5em;">Hi, I'm Youngjin Moon and working</span><br>
+<span style="font-size: 1.5em;">Toward <em style="color:rgb(255, 154, 154); font-style: italic;">Hardware-efficient AI Architecture</em></span>
 </div>
 
 <div class="notice" markdown="1">
-I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Technology (KAIST), advised by Professor **HOI-JUN YOO** in **Semiconductor System Lab (SSL)**.
+I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Technology (KAIST), advised by Professor **Hoi-Jun Yoo** in **Semiconductor System Lab (SSL)**.
 </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb;">
@@ -34,37 +34,40 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
 🐍 **A 2.67 mJ/frame Video Mamba Accelerator with Importance-aware Redundancy Elimination and SSM Computing Reformulation**
 
-Authors: **Youngjin Moon**, Sangwoo Ha, Soyeon Kim, Junha Ryu, Hoi-Jun Yoo, and Donghyeon Han
+<strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Soyeon Kim, Junha Ryu, Hoi-Jun Yoo, and Donghyeon Han
 
-IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
+<span style="color: #666; font-size: 0.9em;">Major</span> IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**  
+<span style="background-color: #007bff; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-*"When Mamba Awakened with SLYTHERIN"*
+<em style="color: white; background-color: #333; padding: 2px 4px; border-radius: 3px; font-weight: bold; font-style: normal;">"When Mamba Awakened with SLYTHERIN"</em>
 </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
 🎥 **NuVPU: A 4.8~9.6 mJ/frame Progressive NTT-based Unified Video Processor for Stable Video Streaming and Processing with Neural Video Codec**
 
-Authors: Soyeon Kim, Hankyul Kwon, Jingu Lee, **Youngjin Moon**, Hongseok Lee, Junha Ryu, Zhamaliddin Kalzhan, Sangyeob Kim, Wooyoung Jo, and Hoi-Jun Yoo
+Soyeon Kim, Hankyul Kwon, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Hongseok Lee, Junha Ryu, Zhamaliddin Kalzhan, Sangyeob Kim, Wooyoung Jo, and Hoi-Jun Yoo
 
-IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
+<span style="color: #666; font-size: 0.9em;">Top-Tier</span> IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**  
+<span style="background-color: #007bff; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-*"Where Video Codec meets DNN"*
+<em style="color: white; background-color: #333; padding: 2px 4px; border-radius: 3px; font-weight: bold; font-style: normal;">"Where Video Codec meets DNN"</em>
 </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
 🧠 **A 227.1 TOPS/W High Energy-efficiency PNN-based 3D Object Recognition Processor with Spiking Neural Network for Edge Device** 
 
-Authors: Sangmyoung Lee, Seryeong Kim, Jongjun Park, **Youngjin Moon**, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
+Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
 
-IEEE International Symposium on Integrated Circuits and Systems (**ISICAS**), **2025**
+<span style="color: #666; font-size: 0.9em;">Major</span> IEEE International Symposium on Integrated Circuits and Systems (**ISICAS**), **2025**  
+<span style="background-color: #007bff; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-*"Where spiking neurons meet 3D vision"*
+<em style="color: white; background-color: #333; padding: 2px 4px; border-radius: 3px; font-weight: bold; font-style: normal;">"Where spiking neurons meet 3D vision"</em>
 </div>
 
 ### Journal
@@ -72,26 +75,26 @@ IEEE International Symposium on Integrated Circuits and Systems (**ISICAS**), **
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
 🐍 **An Energy-Efficient Mamba Accelerator for Real-Time Edge Video Understanding underpinned by Redundancy-Conscious Design**
 
-Authors: **Youngjin Moon**, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo
+<strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo
 
-IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025**
+<span style="color: #666; font-size: 0.9em;">Top-Tier</span> IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025**
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-*"SLYTHERIN’s tiki-taka of redundancy in Mamba"*
+<em style="color: white; background-color: #333; padding: 2px 4px; border-radius: 3px; font-weight: bold; font-style: normal;">"SLYTHERIN's tiki-taka of redundancy in Mamba"</em>
 </div>
 
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
 🧠 **A 227.1 TOPS/W High Energy-efficiency PNN-based 3D Object Recognition Processor with Spiking Neural Network for Edge Device**
 
-Authors: Sangmyoung Lee, Seryeong Kim, Jongjun Park, **Youngjin Moon**, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
+Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
 
-IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **2025**
+<span style="color: #666; font-size: 0.9em;">Major</span> IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **2025**
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-*"Where spiking neurons meet 3D vision"*
+<em style="color: white; background-color: #333; padding: 2px 4px; border-radius: 3px; font-weight: bold; font-style: normal;">"Where spiking neurons meet 3D vision"</em>
 </div>
 
 
