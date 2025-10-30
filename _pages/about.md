@@ -23,7 +23,6 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 - *Circuit Level:* End-to-end chip implementation and post-silicon measurement for performance validation
 - **Efforts in Hardware-Efficient LLMs, Video AI, and Acceleration Architectures**
 </div>
-
 ## Publications
 
 <div class="notice" markdown="1">
@@ -91,4 +90,41 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
 *"Where spiking neurons meet 3D vision"*
+</div>
+
+
+
+## Education
+
+<div class="notice" markdown="1" style="margin-bottom: 1.5em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+**Sungkyunkwan University (SKKU)**
+
+B.S in M.E & E.E
+
+2017/Mar. – 2024/Feb.
+</div>
+
+<div class="notice" markdown="1" style="margin-bottom: 1.5em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+**Korea Advanced Institute of Science and Technology (KAIST)**
+
+M.S in E.E
+
+2024/Mar. – 2026/Feb.
+</div>
+
+<div class="notice" markdown="1" style="margin-bottom: 1.5em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+**Korea Advanced Institute of Science and Technology (KAIST)**
+
+Ph.D in E.E
+
+2026/Mar. – Present
+</div>
+
+## Work Experience
+
+<div class="notice" markdown="1" style="margin-bottom: 1.5em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+**SAMSUNG ELECTRONICS DS, System LSI**
+
+**Position:** Hardware Design Engineer Intern  
+**Group:** Modem, SoC Design Group, High Speed Digital I/F
 </div>
