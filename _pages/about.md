@@ -16,7 +16,7 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <span style="color: #0066cc;">**Semiconductor System Lab (SSL)**</span>.
 </div>
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; font-size: 1.1em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; font-size: 1.3em;">
 **Research Focus**
 - ***ML Level:*** Exporing sparsity in weights and activation to preserve model accuracy at high sparsity
 - ***System Level:*** GPU kernel support for sparse AI on existing compute platforms
@@ -33,7 +33,7 @@ Giving it a name helps me preserve that philosophy and communicate it more intui
 
 ### Conference Papers
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.1em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.3em;">
 🐍 **A 2.67 mJ/frame Video Mamba Accelerator with Importance-aware Redundancy Elimination and SSM Computing Reformulation**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Soyeon Kim, Junha Ryu, Hoi-Jun Yoo, and Donghyeon Han</span>
@@ -46,7 +46,7 @@ IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 <em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"When Mamba Awakened with SLYTHERIN!!"</em>
 </div>
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.1em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.3em;">
 **NuVPU: A 4.8~9.6 mJ/frame Progressive NTT-based Unified Video Processor for Stable Video Streaming and Processing with Neural Video Codec**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Soyeon Kim, Hankyul Kwon, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Hongseok Lee, Junha Ryu, Zhamaliddin Kalzhan, Sangyeob Kim, Wooyoung Jo, and Hoi-Jun Yoo</span>
@@ -61,7 +61,7 @@ IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
 
 ### Journal
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.1em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.3em;">
 🐍 **An Energy-Efficient Mamba Accelerator for Real-Time Edge Video Understanding underpinned by Redundancy-Conscious Design**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo</span>
@@ -75,7 +75,7 @@ IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025
 </div>
 
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.1em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.3em;">
 **A 227.1 TOPS/W High Energy-efficiency PNN-based 3D Object Recognition Processor with Spiking Neural Network for Edge Device**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han</span>
@@ -92,7 +92,7 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 ## Education
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
-<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.1em;">
+<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.3em;">
 <span style="color: #000; font-weight: bold;">Sungkyunkwan University (SKKU)</span>
 
 <span style="color: #000;">B.S in M.E & E.E</span>
@@ -100,7 +100,7 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 <span style="color: #666; font-size: 0.95em;">2017/Mar. – 2024/Feb.</span>
 </div>
 
-<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.1em;">
+<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.3em;">
 <span style="color: #000; font-weight: bold;">Korea Advanced Institute of Science and Technology (KAIST)</span>
 
 <span style="color: #000;">M.S in E.E</span>
@@ -108,7 +108,7 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 <span style="color: #666; font-size: 0.95em;">2024/Mar. – 2026/Feb.</span>
 </div>
 
-<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.1em;">
+<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.3em;">
 <span style="color: #000; font-weight: bold;">Korea Advanced Institute of Science and Technology (KAIST)</span>
 
 <span style="color: #000;">Ph.D in E.E</span>
@@ -120,7 +120,7 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 ## Work Experience
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
-<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.1em;">
+<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.3em;">
 <span style="color: #000; font-weight: bold;">SAMSUNG ELECTRONICS DS, System LSI</span>
 
 <span style="color: #000;">**Position:** Hardware Design Engineer Intern</span>
