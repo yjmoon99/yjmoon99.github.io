@@ -126,5 +126,7 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 <span style="color: #000;">**Position:** Hardware Design Engineer Intern</span>
 
 <span style="color: #000;">**Group:** Modem, SoC Design Group, High Speed Digital I/F</span>
+
+<span style="color: #666; font-size: 0.95em;">2024/Sep. – 2024/Dec.</span>
 </div>
 </div>
