@@ -41,7 +41,7 @@ Giving it a name helps me preserve that philosophy and communicate it more intui
 IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**  
 <span style="background-color: #ffc107; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
-[Paper](https://ieeexplore.ieee.org/abstract/document/11042937){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
+[Paper](https://ieeexplore.ieee.org/abstract/document/11042937){: .btn .btn--danger .btn--small}
 
 <em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"When Mamba Awakened with SLYTHERIN!!"</em>
 </div>
