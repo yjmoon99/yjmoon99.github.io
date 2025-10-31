@@ -16,7 +16,7 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <span style="color: #0066cc;">**Semiconductor System Lab (SSL)**</span>.
 </div>
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid rgb(105, 168, 126); font-size: 1.6em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid rgb(105, 168, 126); font-size: 2em;">
 **Research Focus**
 - ***ML Level:*** Exporing sparsity in weights and activation to preserve model accuracy at high sparsity
 - ***System Level:*** GPU kernel support for sparse AI on existing compute platforms
@@ -66,7 +66,7 @@ IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo</span>
 
-IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025**  
+IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2026**  
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
