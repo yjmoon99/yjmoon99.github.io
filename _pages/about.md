@@ -89,7 +89,8 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 
 ## Education
 
-<div class="notice" markdown="1" style="margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
+<div style="display: flex; gap: 1em; flex-wrap: wrap;">
+<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
 <span style="color: #000; font-weight: bold;">Sungkyunkwan University (SKKU)</span>
 
 <span style="color: #000;">B.S in M.E & E.E</span>
@@ -97,7 +98,7 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 <span style="color: #666; font-size: 0.9em;">2017/Mar. – 2024/Feb.</span>
 </div>
 
-<div class="notice" markdown="1" style="margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
+<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
 <span style="color: #000; font-weight: bold;">Korea Advanced Institute of Science and Technology (KAIST)</span>
 
 <span style="color: #000;">M.S in E.E</span>
@@ -105,20 +106,23 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 <span style="color: #666; font-size: 0.9em;">2024/Mar. – 2026/Feb.</span>
 </div>
 
-<div class="notice" markdown="1" style="margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
+<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
 <span style="color: #000; font-weight: bold;">Korea Advanced Institute of Science and Technology (KAIST)</span>
 
 <span style="color: #000;">Ph.D in E.E</span>
 
 <span style="color: #666; font-size: 0.9em;">2026/Mar. – Present</span>
 </div>
+</div>
 
 ## Work Experience
 
-<div class="notice" markdown="1" style="margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
+<div style="display: flex; gap: 1em; flex-wrap: wrap;">
+<div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
 <span style="color: #000; font-weight: bold;">SAMSUNG ELECTRONICS DS, System LSI</span>
 
 <span style="color: #000;">**Position:** Hardware Design Engineer Intern</span>
 
 <span style="color: #000;">**Group:** Modem, SoC Design Group, High Speed Digital I/F</span>
+</div>
 </div>
