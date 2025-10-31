@@ -11,8 +11,9 @@ redirect_from:
 <span style="font-size: 1.3em;">and I'm woring toward <em style="color:rgb(228, 92, 92); font-style: italic;">Hardware-efficient AI Architecture</em></span>
 </div>
 
-<div class="notice" markdown="1" style="text-align: center; font-size: 1.2em;">
-I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Technology (KAIST), advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <span style="color: #0066cc;">**Semiconductor System Lab (SSL)**</span>.
+<div class="notice" markdown="1" style="text-align: center; font-size: 1.5em;">
+I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Technology (KAIST)<br>
+Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <span style="color: #0066cc;">**Semiconductor System Lab (SSL)**</span>.
 </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb;">
@@ -25,8 +26,9 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 </div>
 ## Publications
 
-<div class="notice" markdown="1" style="text-align: center; font-size: 1.2em;">
-⭐ *Each project I work on carries a unique design philosophy. Giving it a name helps me preserve that philosophy and communicate it more intuitively.* ⭐
+<div class="notice" markdown="1" style="text-align: center; font-size: 1.5em;">
+⭐ *Each project I work on carries a unique design philosophy.<br>
+Giving it a name helps me preserve that philosophy and communicate it more intuitively.* ⭐
 </div>
 
 ### Conference Papers
