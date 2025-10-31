@@ -15,7 +15,7 @@ redirect_from:
 I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Technology (KAIST), advised by Professor **Hoi-Jun Yoo** in **Semiconductor System Lab (SSL)**.
 </div>
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; font-size: 1.3em;">
 **Research Focus**
 - ***ML Level:*** Deriving sparsity in weights and activation to preserve model accuracy at high sparsity
 - ***System Level:*** GPU kernel support for sparse AI on existing compute platforms
@@ -37,7 +37,7 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 <strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Soyeon Kim, Junha Ryu, Hoi-Jun Yoo, and Donghyeon Han
 
 IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**  
-<span style="background-color: #ffc107; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+<span style="background-color:rgb(255, 227, 144); color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
@@ -54,11 +54,10 @@ IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-<em style="color: #333; font-weight: bold; font-style: normal;">"Where Video Codec meets DNN"</em>
 </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
-🧠 **A 227.1 TOPS/W High Energy-efficiency PNN-based 3D Object Recognition Processor with Spiking Neural Network for Edge Device** 
+**A 227.1 TOPS/W High Energy-efficiency PNN-based 3D Object Recognition Processor with Spiking Neural Network for Edge Device** 
 
 Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
 
@@ -67,7 +66,6 @@ IEEE International Symposium on Integrated Circuits and Systems (**ISICAS**), **
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-<em style="color: #333; font-weight: bold; font-style: normal;">"Where spiking neurons meet 3D vision"</em>
 </div>
 
 ### Journal
@@ -96,7 +94,6 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-<em style="color: #333; font-weight: bold; font-style: normal;">"Where spiking neurons meet 3D vision"</em>
 </div>
 
 

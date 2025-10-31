@@ -1,0 +1,114 @@
+/* Publications Section Custom Styles */
+
+/* Paper Title */
+.pub-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+  line-height: 1.3;
+  margin-bottom: 0.5em;
+}
+
+/* Authors */
+.pub-authors {
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+
+.pub-author-highlight {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #333;
+}
+
+/* Conference Info */
+.pub-conference {
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+}
+
+.pub-conference-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.pub-year {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Tier Badges */
+.pub-tier-major {
+  background-color: #ffc107;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.pub-tier-top-tier {
+  background-color: #ff9800;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+/* Category Badges */
+.pub-category-circuit {
+  background-color: #17a2b8;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.pub-category-architecture {
+  background-color: #9b59b6;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.pub-category-algorithm {
+  background-color: #e74c3c;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.85em;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+/* Quote */
+.pub-quote {
+  color: #333;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+/* Paper Card */
+.pub-card {
+  margin-bottom: 1.5em;
+}
+
