@@ -25,7 +25,7 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 </div>
 ## Publications
 
-<div class="notice" markdown="1">
+<div class="notice" markdown="1" style="font-size: 1.3em;">
 ⭐ *Each project I work on carries a unique design philosophy. Giving it a name helps me preserve that philosophy and communicate it more intuitively.* ⭐
 </div>
 
@@ -37,15 +37,15 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 <strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Soyeon Kim, Junha Ryu, Hoi-Jun Yoo, and Donghyeon Han
 
 IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**  
-<span style="background-color:rgb(255, 227, 144); color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+<span style="background-color:rgb(255, 227, 144); color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span> <span style="background-color:rgb(184, 109, 23); color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-<em style="color: #333; font-weight: bold; font-style: normal;">"When Mamba Awakened with SLYTHERIN"</em>
+<em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"When Mamba Awakened with SLYTHERIN!!"</em>
 </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
-🎥 **NuVPU: A 4.8~9.6 mJ/frame Progressive NTT-based Unified Video Processor for Stable Video Streaming and Processing with Neural Video Codec**
+**NuVPU: A 4.8~9.6 mJ/frame Progressive NTT-based Unified Video Processor for Stable Video Streaming and Processing with Neural Video Codec**
 
 Soyeon Kim, Hankyul Kwon, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Hongseok Lee, Junha Ryu, Zhamaliddin Kalzhan, Sangyeob Kim, Wooyoung Jo, and Hoi-Jun Yoo
 
@@ -80,12 +80,12 @@ IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-<em style="color: #333; font-weight: bold; font-style: normal;">"SLYTHERIN's tiki-taka of redundancy in Mamba"</em>
+<em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"SLYTHERIN's tiki-taka of redundancy in Mamba!!"</em>
 </div>
 
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
-🧠 **A 227.1 TOPS/W High Energy-efficiency PNN-based 3D Object Recognition Processor with Spiking Neural Network for Edge Device**
+ **A 227.1 TOPS/W High Energy-efficiency PNN-based 3D Object Recognition Processor with Spiking Neural Network for Edge Device**
 
 Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
 
