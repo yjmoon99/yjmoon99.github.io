@@ -15,7 +15,7 @@ redirect_from:
 I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Technology (KAIST), advised by Professor **Hoi-Jun Yoo** in **Semiconductor System Lab (SSL)**.
 </div>
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; font-size: 1.3em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solidrgb(145, 255, 204); font-size: 1.3em;">
 **Research Focus**
 - ***ML Level:*** Deriving sparsity in weights and activation to preserve model accuracy at high sparsity
 - ***System Level:*** GPU kernel support for sparse AI on existing compute platforms
@@ -31,7 +31,7 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 
 ### Conference Papers
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
 🐍 **A 2.67 mJ/frame Video Mamba Accelerator with Importance-aware Redundancy Elimination and SSM Computing Reformulation**
 
 <strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Soyeon Kim, Junha Ryu, Hoi-Jun Yoo, and Donghyeon Han
@@ -44,7 +44,7 @@ IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 <em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"When Mamba Awakened with SLYTHERIN!!"</em>
 </div>
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
 **NuVPU: A 4.8~9.6 mJ/frame Progressive NTT-based Unified Video Processor for Stable Video Streaming and Processing with Neural Video Codec**
 
 Soyeon Kim, Hankyul Kwon, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Hongseok Lee, Junha Ryu, Zhamaliddin Kalzhan, Sangyeob Kim, Wooyoung Jo, and Hoi-Jun Yoo
@@ -56,7 +56,7 @@ IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
 
 </div>
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
 **A 227.1 TOPS/W High Energy-efficiency PNN-based 3D Object Recognition Processor with Spiking Neural Network for Edge Device** 
 
 Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
@@ -70,7 +70,7 @@ IEEE International Symposium on Integrated Circuits and Systems (**ISICAS**), **
 
 ### Journal
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
 🐍 **An Energy-Efficient Mamba Accelerator for Real-Time Edge Video Understanding underpinned by Redundancy-Conscious Design**
 
 <strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo
@@ -84,8 +84,8 @@ IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2025
 </div>
 
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em;">
- **A 227.1 TOPS/W High Energy-efficiency PNN-based 3D Object Recognition Processor with Spiking Neural Network for Edge Device**
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em;">
+**A 227.1 TOPS/W High Energy-efficiency PNN-based 3D Object Recognition Processor with Spiking Neural Network for Edge Device**
 
 Sangmyoung Lee, Seryeong Kim, Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Minsung Kim, Junha Ryu, Hoi-Jun Yoo, Donghyeon Han
 
