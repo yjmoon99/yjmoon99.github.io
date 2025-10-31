@@ -12,17 +12,17 @@ redirect_from:
 </div>
 
 <div class="notice" markdown="1" style="text-align: center; font-size: 1.7em;">
-I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Technology (KAIST)<br>
+I'm a first year Ph.D. Student in Korea Advanced Insititue of Science and Technology (KAIST)<br>
 Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <span style="color: #0066cc;">**Semiconductor System Lab (SSL)**</span>.
 </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid rgb(105, 168, 126); font-size: 3em;">
 **Research Focus**
-- ***ML Level:*** Exporing sparsity in weights and activation to preserve model accuracy at high sparsity
+- ***ML Level:*** Sparsity Exploration for Efficient Processing while Preserving Model Accuracy
 - ***System Level:*** GPU kernel support for sparse AI on existing compute platforms
 - ***Architecture Level:*** Novel architectural changes to better support sparsity and improve efficiency
 - ***Circuit Level:*** End-to-end chip implementation and post-silicon measurement for performance validation
-- <span style="font-weight: normal;">Efforts in Hardware-Efficient LLMs, Video AI, and Acceleration Architectures</span>
+- <span style="font-weight: normal;">Efforts in Hardware-Efficient LLMs, Video AI, and Accelerator Architectures</span>
 </div>
 ## Publications
 
