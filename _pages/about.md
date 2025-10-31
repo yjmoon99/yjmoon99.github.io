@@ -8,7 +8,7 @@ redirect_from:
 ---
 <div style="font-weight: bold; margin-bottom: 0.5em; line-height: 1.2;">
 <span style="font-size: 2.5em; font-weight: bold;">Hi, I'm Youngjin Moon</span><br>
-<span style="font-size: 1.6em;">and I'm working toward <em style="color:rgb(228, 92, 92); font-style: italic;">Hardware-efficient AI Architecture</em></span>
+<span style="font-size: 1.2em;">and I'm working toward <span style="font-size: 1.6em;"><em style="color:rgb(228, 92, 92); font-style: italic;">Hardware-efficient AI Architecture</em></span>
 </div>
 
 <div class="notice" markdown="1" style="text-align: center; font-size: 1.7em;">
@@ -16,13 +16,13 @@ I am a first year Ph.D. Student in Korea Advanced Insititue of Science and Techn
 Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <span style="color: #0066cc;">**Semiconductor System Lab (SSL)**</span>.
 </div>
 
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid rgb(105, 168, 126); font-size: 2em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid rgb(105, 168, 126); font-size: 3em;">
 **Research Focus**
 - ***ML Level:*** Exporing sparsity in weights and activation to preserve model accuracy at high sparsity
 - ***System Level:*** GPU kernel support for sparse AI on existing compute platforms
 - ***Architecture Level:*** Novel architectural changes to better support sparsity and improve efficiency
 - ***Circuit Level:*** End-to-end chip implementation and post-silicon measurement for performance validation
-- **Efforts in Hardware-Efficient LLMs, Video AI, and Acceleration Architectures**
+- <span style="font-weight: normal;">Efforts in Hardware-Efficient LLMs, Video AI, and Acceleration Architectures</span>
 </div>
 ## Publications
 
