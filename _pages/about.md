@@ -83,7 +83,7 @@ IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2026
 IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **2025**  
 <span style="background-color: #ffc107; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
-[Paper](https://ieeexplore.ieee.org/abstract/document/11063416){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
+[Paper](https://ieeexplore.ieee.org/abstract/document/11063416){: .btn .btn--danger .btn--small} 
 
 </div>
 
