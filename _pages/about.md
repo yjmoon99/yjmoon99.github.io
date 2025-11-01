@@ -145,6 +145,6 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 
 <span style="color: #000;">**Group:** Design Solution, System LSI, Modem Team, SoC Design Group, High Speed Digital I/F Part</span>
 
-<span style="color: #666; font-size: 0.95em;">2023/Sep. – 2023/Dec.</span>
+<span style="color: #666; font-size: 0.95em;">2022/Sep. – 2022/Dec.</span>
 </div>
 </div>
