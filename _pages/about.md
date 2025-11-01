@@ -16,6 +16,13 @@ I'm a first year Ph.D. Student in Korea Advanced Insititue of Science and Techno
 Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <span style="color: #0066cc;">**Semiconductor System Lab (SSL)**</span>.
 </div>
 
+<h2 style="font-size: 2.2em; font-weight: bold; text-align: center; margin-bottom: 1em; color: #000;">Holistic System Hierarchy</h2>
+
+<div style="text-align: center;">
+<img src="{{ base_path }}/images/system.png" alt="Holistic System Hierarchy" style="max-width: 100%; height: auto;">
+</div>
+
+
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid rgb(105, 168, 126); font-size: 3em;">
 **Research Focus**
 - ***ML Level:*** Sparsity Exploration for Efficient Processing while Preserving Model Accuracy
@@ -23,12 +30,6 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 - ***Architecture Level:*** Novel architectural changes to better support sparsity and improve efficiency
 - ***Circuit Level:*** End-to-end chip implementation and post-silicon measurement for performance validation
 - <span style="font-weight: normal;">Efforts in Hardware-Efficient LLMs, Video AI, and Accelerator Architectures</span>
-</div>
-
-## Holistic System Hierarchy
-
-<div style="text-align: center;">
-<img src="{{ base_path }}/images/system.png" alt="Holistic System Hierarchy" style="max-width: 100%; height: auto;">
 </div>
 
 ## Publications
