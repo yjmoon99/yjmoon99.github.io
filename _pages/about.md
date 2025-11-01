@@ -114,6 +114,7 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 <span style="color: #666; font-size: 0.95em;">Daejeon, South Korea</span>
 
 <span style="color: #000;">M.S in E.E</span>
+
 <span style="color: #000;">Advisor: Hoi-Jun Yoo</span>
 
 <span style="color: #666; font-size: 0.95em;">2024/Mar. – 2026/Feb.</span>
@@ -125,6 +126,7 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 <span style="color: #666; font-size: 0.95em;">Daejeon, South Korea</span>
 
 <span style="color: #000;">Ph.D in E.E</span>
+
 <span style="color: #000;">Advisor: Hoi-Jun Yoo</span>
 
 <span style="color: #666; font-size: 0.95em;">2026/Mar. – Present</span>
