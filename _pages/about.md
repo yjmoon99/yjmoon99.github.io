@@ -31,7 +31,7 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 - <span style="font-weight: normal;">Efforts in Hardware-Efficient LLMs, Video AI, and Accelerator Architectures</span>
 </div>
 
-<h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Publications Focus</h2>
+<h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Publications</h2>
 <div class="notice" markdown="1" style="text-align: center; font-size: 1.7em;">
 ⭐ *Each project I work on carries a unique design philosophy.<br>
 Giving it a name helps me preserve that philosophy and communicate it more intuitively.* ⭐
@@ -95,7 +95,7 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 
 
 
-## Education
+<h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Education</h2>
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
 <div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
@@ -123,7 +123,9 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 </div>
 </div>
 
-## Work Experience
+
+<h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Work Experience</h2>
+
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
 <div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
