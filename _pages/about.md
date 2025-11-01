@@ -129,11 +129,11 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
 <div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
-<span style="color: #000; font-weight: bold;">SAMSUNG ELECTRONICS DS, System LSI</span>
+<span style="color: #000; font-weight: bold;">SAMSUNG ELECTRONICS</span>
 
-<span style="color: #000;">**Position:** Hardware Design Engineer Intern</span>
+<span style="color: #000;">**Position:** Hardware Design Engineer Internship</span>
 
-<span style="color: #000;">**Group:** Modem, SoC Design Group, High Speed Digital I/F</span>
+<span style="color: #000;">**Group:** Design Solution, System LSI, Modem Team, SoC Design Group, High Speed Digital I/F Part</span>
 
 <span style="color: #666; font-size: 0.95em;">2024/Sep. – 2024/Dec.</span>
 </div>
