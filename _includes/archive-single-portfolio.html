@@ -41,6 +41,16 @@
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      {% if title == "SMoLPU" %}
+        <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold; margin-left: 0.5em;">Circuit</span>
+        <span style="background-color: #28a745; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Tape-out</span>
+      {% elsif title == "NuVPU" %}
+        <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold; margin-left: 0.5em;">Circuit</span>
+        <span style="background-color: #28a745; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Tape-out</span>
+      {% elsif title == "SLYTHERIN" %}
+        <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold; margin-left: 0.5em;">Circuit</span>
+        <span style="background-color: #6c757d; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Simulation</span>
+      {% endif %}
     </h2>
     
     {% if post.excerpt %}
