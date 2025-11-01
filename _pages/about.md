@@ -16,9 +16,8 @@ I'm a first year Ph.D. Student in Korea Advanced Insititue of Science and Techno
 Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <span style="color: #0066cc;">**Semiconductor System Lab (SSL)**</span>.
 </div>
 
-<h2 style="font-size: 1.7em; font-weight: bold; text-align: center; margin-bottom: 1em; color: #000;">Research Focus</h2>
+<h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Research Focus</h2>
 
-**Holistic System Hierarchy**
 <div style="text-align: center;">
 <img src="{{ base_path }}/images/system.png" alt="Holistic System Hierarchy" style="max-width: 100%; height: auto;">
 </div>
@@ -32,8 +31,7 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 - <span style="font-weight: normal;">Efforts in Hardware-Efficient LLMs, Video AI, and Accelerator Architectures</span>
 </div>
 
-## Publications
-
+<h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Publications Focus</h2>
 <div class="notice" markdown="1" style="text-align: center; font-size: 1.7em;">
 ⭐ *Each project I work on carries a unique design philosophy.<br>
 Giving it a name helps me preserve that philosophy and communicate it more intuitively.* ⭐
