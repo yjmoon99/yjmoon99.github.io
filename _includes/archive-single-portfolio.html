@@ -1,0 +1,28 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1.5em; margin-bottom: 1.5em;">
+    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    
+    {% if post.excerpt %}
+    <div class="archive__item-excerpt" itemprop="description" style="margin-top: 0.5em;">
+      {% assign excerpt_content = post.excerpt | markdownify %}
+      {% assign excerpt_with_small_images = excerpt_content | replace: '<img src=', '<img style="max-width: 300px; height: auto; margin: 0.5em 0;" src=' %}
+      {{ excerpt_with_small_images }}
+    </div>
+    {% endif %}
+  </article>
+</div>
+
