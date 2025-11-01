@@ -35,6 +35,9 @@
         float: none !important;
         margin: 0 !important;
       }
+      .portfolio-excerpt-images.single-image img {
+        max-width: 280px !important;
+      }
     </style>
     <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
       <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 0.5em;">
@@ -51,7 +54,7 @@
           <span style="background-color: #28a745; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Tape-out</span>
         {% elsif title_key == "SLYTHERIN" %}
           <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
-          <span style="background-color: #95a5a6; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Simulation</span>
+          <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Simulation</span>
         {% endif %}
       </div>
       <div style="margin-top: 0.3em; display: flex; align-items: center; flex-wrap: wrap; gap: 0.5em;">
@@ -79,7 +82,8 @@
         {% endif %}
       </div>
       {% if img_split.size > 1 %}
-      <div class="portfolio-excerpt-images">
+      {% assign image_count = img_split.size | minus: 1 %}
+      <div class="portfolio-excerpt-images {% if image_count == 1 %}single-image{% endif %}">
         {% for img_part in img_split offset: 1 %}
           {% assign img_tag_start = '<img' | append: img_part | split: '>' | first %}
           {% assign img_full_tag = img_tag_start | append: '>' %}
