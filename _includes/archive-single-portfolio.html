@@ -8,42 +8,64 @@
 
 <div class="list__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1.5em; margin-bottom: 1.5em;">
-    <div style="display: flex; gap: 1.5em; align-items: flex-start;">
-      <div style="flex: 1;">
-        <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
-          {% if post.link %}
-            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-          {% else %}
-            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-          {% endif %}
-        </h2>
-        
-        {% if post.excerpt %}
-        <div class="archive__item-excerpt" itemprop="description" style="margin-top: 0.5em;">
-          {% assign excerpt_content = post.excerpt | markdownify %}
-          {% assign excerpt_text_only = excerpt_content | split: '<img' | first %}
-          {{ excerpt_text_only }}
-        </div>
+    <style>
+      .portfolio-excerpt {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 0.5em;
+      }
+      .portfolio-excerpt-text {
+        flex: 1;
+        min-width: 200px;
+      }
+      .portfolio-excerpt-images {
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+      .portfolio-excerpt img {
+        max-width: 180px !important;
+        height: auto !important;
+        display: block !important;
+        float: none !important;
+        margin: 0 !important;
+      }
+    </style>
+    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    
+    {% if post.excerpt %}
+    <div class="archive__item-excerpt portfolio-excerpt" itemprop="description" style="margin-top: 0.5em;">
+      {% assign excerpt_content = post.excerpt | markdownify %}
+      <div class="portfolio-excerpt-text">
+        {% assign excerpt_text = excerpt_content %}
+        {% assign img_split = excerpt_content | split: '<img' %}
+        {% if img_split.size > 1 %}
+          {{ img_split[0] }}
+        {% else %}
+          {{ excerpt_text }}
         {% endif %}
       </div>
-      
-      {% if post.excerpt %}
-      <div style="flex-shrink: 0; display: flex; flex-direction: row; gap: 0.5em; align-items: flex-start; flex-wrap: wrap; max-width: 400px;">
-        {% assign excerpt_content = post.excerpt | markdownify %}
-        {% assign img_matches = excerpt_content | split: '<img' %}
-        {% for img_part in img_matches %}
-          {% if img_part contains 'src=' %}
-            {% assign img_tag = img_part | split: '>' | first %}
-            {% assign src_match = img_tag | split: "src='" | last | split: "'" | first %}
-            {% if src_match == "" %}
-              {% assign src_match = img_tag | split: 'src="' | last | split: '"' | first %}
-            {% endif %}
-            <img style="max-width: 180px; height: auto; display: block;" src="{{ src_match }}">
-          {% endif %}
+      {% if img_split.size > 1 %}
+      <div class="portfolio-excerpt-images">
+        {% for img_part in img_split offset: 1 %}
+          {% assign img_tag_start = '<img' | append: img_part | split: '>' | first %}
+          {% assign img_full_tag = img_tag_start | append: '>' %}
+          {{ img_full_tag }}
         {% endfor %}
       </div>
       {% endif %}
     </div>
+    {% endif %}
   </article>
 </div>
 
