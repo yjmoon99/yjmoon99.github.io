@@ -24,6 +24,13 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 - ***Circuit Level:*** End-to-end chip implementation and post-silicon measurement for performance validation
 - <span style="font-weight: normal;">Efforts in Hardware-Efficient LLMs, Video AI, and Accelerator Architectures</span>
 </div>
+
+## Holistic System Hierarchy
+
+<div style="text-align: center;">
+<img src="{{ base_path }}/images/system.png" alt="Holistic System Hierarchy" style="max-width: 100%; height: auto;">
+</div>
+
 ## Publications
 
 <div class="notice" markdown="1" style="text-align: center; font-size: 1.7em;">
