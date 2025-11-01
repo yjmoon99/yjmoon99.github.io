@@ -1,6 +1,6 @@
 ---
 title: "SMoLPU"
-excerpt: "Sparse MoE-based Speculative Decoding LLM Accelerator<br/><img src='/images/project/SMoLPU_ISSCC26_2503_2507.png'><br/><img src='/images/project/SMoLPU_ISSCC26_architecture.png'"
+excerpt: "Sparse MoE-based Speculative Decoding LLM Accelerator<br/><img src='/images/project/SMoLPU_ISSCC26_2503_2507.png'><br/><img src='/images/project/SMoLPU_ISSCC26_architecture.png'>"
 collection: portfolio
 ---
 

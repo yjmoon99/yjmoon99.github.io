@@ -5,6 +5,7 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+{% assign title_key = post.title | strip %}
 
 <div class="list__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1.5em; margin-bottom: 1.5em;">
@@ -35,20 +36,20 @@
         margin: 0 !important;
       }
     </style>
-    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
+    <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0; display: flex; align-items: center; flex-wrap: wrap; gap: 0.5em;">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-      {% if title == "SMoLPU" %}
-        <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold; margin-left: 0.5em;">Circuit</span>
+      {% if title_key == "SMoLPU" %}
+        <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
         <span style="background-color: #28a745; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Tape-out</span>
-      {% elsif title == "NuVPU" %}
-        <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold; margin-left: 0.5em;">Circuit</span>
+      {% elsif title_key == "NuVPU" %}
+        <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
         <span style="background-color: #28a745; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Tape-out</span>
-      {% elsif title == "SLYTHERIN" %}
-        <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold; margin-left: 0.5em;">Circuit</span>
+      {% elsif title_key == "SLYTHERIN" %}
+        <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
         <span style="background-color: #6c757d; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Simulation</span>
       {% endif %}
     </h2>
