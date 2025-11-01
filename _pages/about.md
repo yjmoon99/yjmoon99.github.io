@@ -101,6 +101,8 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 <div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 <span style="color: #000; font-weight: bold;">Sungkyunkwan University (SKKU)</span>
 
+<span style="color: #666; font-size: 0.95em;">Suwon, South Korea</span>
+
 <span style="color: #000;">B.S in M.E & E.E</span>
 
 <span style="color: #666; font-size: 0.95em;">2017/Mar. – 2024/Feb.</span>
@@ -109,7 +111,10 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 <div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 <span style="color: #000; font-weight: bold;">Korea Advanced Institute of Science and Technology (KAIST)</span>
 
+<span style="color: #666; font-size: 0.95em;">Daejeon, South Korea</span>
+
 <span style="color: #000;">M.S in E.E</span>
+<span style="color: #000;">Advisor: Hoi-Jun Yoo</span>
 
 <span style="color: #666; font-size: 0.95em;">2024/Mar. – 2026/Feb.</span>
 </div>
@@ -117,7 +122,10 @@ IEEE Transactions on Circuits and Systems II: Express Briefs (**TCAS-II**), **20
 <div class="notice" markdown="1" style="flex: 1; min-width: 200px; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 <span style="color: #000; font-weight: bold;">Korea Advanced Institute of Science and Technology (KAIST)</span>
 
+<span style="color: #666; font-size: 0.95em;">Daejeon, South Korea</span>
+
 <span style="color: #000;">Ph.D in E.E</span>
+<span style="color: #000;">Advisor: Hoi-Jun Yoo</span>
 
 <span style="color: #666; font-size: 0.95em;">2026/Mar. – Present</span>
 </div>
