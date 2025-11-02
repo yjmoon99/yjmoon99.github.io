@@ -1,6 +1,6 @@
 ---
 title: "SLYTHERIN"
-excerpt: "Redundancy-consciously Designed Video Mamba Processor<br/><img src='/images/project/SLYTHERIN_ISCAS25.png'>"
+excerpt: "Redundancy-consciously Designed Video Mamba Accelerator<br/><img src='/images/project/SLYTHERIN_ISCAS25.png'>"
 collection: portfolio
 ---
 

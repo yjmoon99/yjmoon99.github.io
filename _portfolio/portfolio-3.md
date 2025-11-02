@@ -1,6 +1,6 @@
 ---
 title: "NuVPU"
-excerpt: "Neural-enhanced Video Processor<br/><img src='/images/project/NuVPU_VLSI25_2404_2408.png'><br/><img src='/images/project/NuVPU_VLSI25_architecture.png'>"
+excerpt: "Neural Video Codec-integrated Video Processor<br/><img src='/images/project/NuVPU_VLSI25_2404_2408.png'><br/><img src='/images/project/NuVPU_VLSI25_architecture.png'>"
 collection: portfolio
 ---
 

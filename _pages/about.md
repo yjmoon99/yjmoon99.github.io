@@ -24,11 +24,11 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid rgb(105, 168, 126); font-size: 3em;">
-- ***ML Level:*** Sparsity Exploration for Efficient Processing while Preserving Model Accuracy
+- ***ML Level:*** Sparsity exploration for efficient processing while preserving model accuracy
 - ***System Level:*** GPU kernel support for sparse AI on existing compute platforms
 - ***Architecture Level:*** Novel architectural changes to better support sparsity and improve efficiency
 - ***Circuit Level:*** End-to-end chip implementation and post-silicon measurement for performance validation
-- <span style="font-weight: normal;">Efforts in Hardware-Efficient LLMs, Video AI, and Accelerator Architectures</span>
+- <span style="font-weight: normal;">Efforts in hardware-efficient LLMs, video AIs, and accelerator architectures</span>
 </div>
 
 <h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Publications</h2>
@@ -77,7 +77,7 @@ IEEE Transactions on Circuits and Systems I: Express Briefs (**TCAS-I**), **2026
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
 
-<em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"SLYTHERIN's tiki-taka of redundancy in Mamba!!"</em>
+<em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"SLYTHERIN's Tiki-Taka of Redundancy in Mamba!!"</em>
 </div>
 
 
