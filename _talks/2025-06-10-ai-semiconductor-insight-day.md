@@ -9,7 +9,7 @@ location: "Seoul, South Korea"
 excerpt: ""
 ---
 
-AI Semiconductor Graduate School Insight Day held to showcase innovative research ideas and achievements of enrolled students and strengthen practical capabilities.
+AI Semiconductor Insight Day held to showcase innovative research ideas and achievements of enrolled students and strengthen practical capabilities. "SLYTHERIN: A 2.67 mJ/frame Video Mamba Accelerator with Importance-aware Redundancy Elimination and SSM Computing Reformulation" is presented at AI Semiconductor Insight Day.
 
 <p style="background-color: #e8f4f8; color: #0066cc; padding: 10px 15px; border-left: 4px solid #0066cc; font-weight: bold; margin: 15px 0;">IITP (Institute for Information & communication Technology Planning & evaluation of Korea) President's Award</p>
 
