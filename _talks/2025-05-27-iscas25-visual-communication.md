@@ -13,4 +13,6 @@ The IEEE International Symposium on Circuits and Systems (ISCAS) is the flagship
 
 <p style="background-color: #e8f4f8; color: #0066cc; padding: 10px 15px; border-left: 4px solid #0066cc; font-weight: bold; margin: 15px 0;">Selected as Best Paper Finalists in Visual Session</p>
 
+<p style="background-color: #e8f4f8; color: #0066cc; padding: 10px 15px; border-left: 4px solid #0066cc; font-weight: bold; margin: 15px 0;">IEEE ISCAS Student Travel Grant Award</p>
+
 <img src="/images/talk/iscas25.jpg" alt="ISCAS 2025" style="max-width: 500px; width: 100%; height: auto;">
