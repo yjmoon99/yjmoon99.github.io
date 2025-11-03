@@ -13,7 +13,9 @@ AI Semiconductor Graduate School Insight Day held to showcase innovative researc
 
 <p style="background-color: #e8f4f8; color: #0066cc; padding: 10px 15px; border-left: 4px solid #0066cc; font-weight: bold; margin: 15px 0;">IITP (Institute for Information & communication Technology Planning & evaluation of Korea) President's Award</p>
 
-Federation of Korean Information Industries (FKII) Global Study Tour to GITEX.
+<p style="background-color: #e8f4f8; color: #0066cc; padding: 10px 15px; border-left: 4px solid #0066cc; font-weight: bold; margin: 15px 0;">Global Tour to GITEX in Dubai, Federation of Korean Information Industries (FKII)</p>
+
+
 
 <img src="/images/talk/ai_insightday_1.JPG" alt="AI Semiconductor Insight Day 1" style="max-width: 500px; width: 100%; height: auto; margin-bottom: 15px;">
 
