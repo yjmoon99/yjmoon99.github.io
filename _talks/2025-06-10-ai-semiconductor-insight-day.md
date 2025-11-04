@@ -21,3 +21,7 @@ AI Semiconductor Insight Day held to showcase innovative research ideas and achi
 
 <img src="/images/talk/ai_insightday_2.jpg" alt="AI Semiconductor Insight Day 2" style="max-width: 500px; width: 100%; height: auto;">
 
+<img src="/images/talk/gitex_1.jpg" alt="Gitex 1" style="max-width: 500px; width: 100%; height: auto;">
+
+<img src="/images/talk/gitex_2.jpg" alt="Gitex 2" style="max-width: 500px; width: 100%; height: auto;">
+
