@@ -19,6 +19,7 @@
       .portfolio-excerpt-text {
         flex: 1;
         min-width: 200px;
+        font-size: 0.95em;
       }
       .portfolio-excerpt-images {
         flex-shrink: 0;
@@ -76,7 +77,7 @@
     </h2>
     
     {% if post.excerpt %}
-    <div class="archive__item-excerpt portfolio-excerpt" itemprop="description" style="margin-top: 0.5em;">
+    <div class="archive__item-excerpt portfolio-excerpt" itemprop="description" style="margin-top: 0.5em; font-size: 0.95em;">
       {% assign excerpt_content = post.excerpt | markdownify %}
       <div class="portfolio-excerpt-text">
         {% assign excerpt_text = excerpt_content %}
