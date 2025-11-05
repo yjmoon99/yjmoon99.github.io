@@ -4,7 +4,7 @@ excerpt: "Redundancy-consciously Designed Video Mamba Accelerator<br/><img src='
 collection: portfolio
 ---
 
-<img src="/images/project/SLYTHERIN_ISCAS25.png" alt="SLYTHERIN ISCAS25" style="max-width: 400px; width: 100%; height: auto; margin: 20px 0;">
+<img src="/images/project/SLYTHERIN_ISCAS25.png" alt="SLYTHERIN ISCAS25" style="max-width: 550px; width: 100%; height: auto; margin: 20px 0;">
 
 My Contributions:
 - Development of total features in SLYTHERIN
