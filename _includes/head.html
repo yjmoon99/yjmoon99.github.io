@@ -15,10 +15,27 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
   // Force light theme immediately to prevent dark mode flash
   document.documentElement.removeAttribute('data-theme');
+  // Prevent any dark mode from being applied
+  if (document.documentElement.getAttribute('data-theme') === 'dark') {
+    document.documentElement.removeAttribute('data-theme');
+  }
+  // Continuously check and remove dark theme (in case browser adds it)
+  setInterval(function() {
+    if (document.documentElement.getAttribute('data-theme') === 'dark') {
+      document.documentElement.removeAttribute('data-theme');
+    }
+  }, 100);
 </script>
 
 <!-- Force light color scheme -->
-<meta name="color-scheme" content="light">
+<meta name="color-scheme" content="light only">
+<style>
+  /* Force light theme styles - override any dark theme */
+  html[data-theme="dark"],
+  html[data-theme="dark"] * {
+    color-scheme: light !important;
+  }
+</style>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
