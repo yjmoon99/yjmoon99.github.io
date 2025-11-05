@@ -3,6 +3,11 @@ title: "NuVPU"
 excerpt: "Neural Video Codec-integrated Video Processor<br/><img src='/images/project/NuVPU_VLSI25_2404_2408.png'><br/><img src='/images/project/NuVPU_VLSI25_architecture.png'>"
 collection: portfolio
 ---
+
+<img src="/images/project/NuVPU_VLSI25_2404_2408.png" alt="NuVPU VLSI25" style="max-width: 600px; width: 100%; height: auto; margin: 20px 0;">
+
+<img src="/images/project/NuVPU_VLSI25_architecture.png" alt="NuVPU Architecture" style="max-width: 600px; width: 100%; height: auto; margin: 20px 0;">
+
 My Contributions:
 - Development of frequency-driven mixed compression
 - Design of Memory Management Unit
