@@ -4,9 +4,9 @@ excerpt: "Sparse MoE-based Speculative Decoding LLM Processor<br/><img src='/ima
 collection: portfolio
 ---
 
-<img src="/images/project/SMoLPU_ISSCC26_2503_2507.png" alt="SMoLPU ISSCC26" style="max-width: 600px; width: 100%; height: auto; margin: 20px 0;">
+<img src="/images/project/SMoLPU_ISSCC26_2503_2507.png" alt="SMoLPU ISSCC26" style="max-width: 400px; width: 100%; height: auto; margin: 20px 0;">
 
-<img src="/images/project/SMoLPU_ISSCC26_architecture.png" alt="SMoLPU Architecture" style="max-width: 600px; width: 100%; height: auto; margin: 20px 0;">
+<img src="/images/project/SMoLPU_ISSCC26_architecture.png" alt="SMoLPU Architecture" style="max-width: 400px; width: 100%; height: auto; margin: 20px 0;">
 
 My Contributions:
 - Development of token adaptive expert refinement and a MoE PSUM management policy
