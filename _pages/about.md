@@ -28,7 +28,7 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 - ***System Level:*** GPU kernel support for sparse AI on existing compute platforms
 - ***Architecture Level:*** Novel architectural changes to better support sparsity and improve efficiency
 - ***Circuit Level:*** End-to-end chip implementation and post-silicon measurement for performance validation
-- <span style="font-weight: normal;">Efforts in hardware-efficient LLMs, video AIs, and accelerator architectures</span>
+- <span style="font-weight: normal;">Especially in hardware-efficient LLMs, video AIs, and accelerator architectures</span>
 </div>
 
 <h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Publications</h2>
