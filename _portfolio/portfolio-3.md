@@ -11,6 +11,8 @@ collection: portfolio
 **Tape-out:** 2024/04 | **Wafer-out:** 2024/08
 
 
+
+
 My Contributions:
 - Development of frequency-driven mixed compression
 - Design of Memory Management Unit
