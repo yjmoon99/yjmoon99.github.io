@@ -12,8 +12,10 @@ collection: portfolio
 
 <p style="margin-bottom: 1.5em;"></p>
 
-My Contributions:
-- Development of frequency-driven mixed compression
-- Design of Memory Management Unit
+<p style="margin-bottom: 0.3em;"><strong>My Contributions:</strong></p>
+<ul style="margin-top: 0;">
+<li>Development of frequency-driven mixed compression</li>
+<li>Design of Memory Management Unit</li>
+</ul>
 
 Target NVC increases intermediate data by up to 100×, causing large EMA due to pixel shuffle layers. Therefore, NuVPU proposes 2-step memory optimization scheme to reduce EMA. First, FAC introduces frequency-driven mixed quantization which adjusts the quantization level based on the frequency of each tile, improving the cache hit ratio with 2.9× higher compression efficiency than JPEG at the same PSNR degradation (<0.05dB). Second, ATS dynamically optimizes tile processing order to maintain a high warping ratio within cache capacity. When memory thresholds are exceeded, ATS shifts from spatial to temporal processing to prevent overflow. Together, they achieve an 81.3% reduction in EMA.
