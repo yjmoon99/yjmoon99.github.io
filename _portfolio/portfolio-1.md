@@ -8,7 +8,7 @@ collection: portfolio
 
 <img src="/images/project/SMoLPU_ISSCC26_architecture.png" alt="SMoLPU Architecture" style="max-width: 400px; width: 100%; height: auto; margin: 20px auto; display: block;">
 
-**Tape-out:** 2025/03 | **Wafer-out:** 2025/07
+<div style="margin-bottom: 1.5em;">**Tape-out:** 2025/03 | **Wafer-out:** 2025/07</div>
 
 
 
