@@ -8,10 +8,9 @@ collection: portfolio
 
 <img src="/images/project/SMoLPU_ISSCC26_architecture.png" alt="SMoLPU Architecture" style="max-width: 400px; width: 100%; height: auto; margin: 20px auto; display: block;">
 
-<div style="margin-bottom: 1.5em;">**Tape-out:** 2025/03 | **Wafer-out:** 2025/07</div>
+**Tape-out:** 2025/03 | **Wafer-out:** 2025/07
 
-
-
+<p style="margin-bottom: 1.5em;"></p>
 
 My Contributions:
 - Development of token adaptive expert refinement and a MoE PSUM management policy
