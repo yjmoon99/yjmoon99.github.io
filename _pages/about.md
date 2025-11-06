@@ -6,9 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div style="font-weight: bold; margin-bottom: 0.5em; line-height: 1.2;">
+<div style="font-weight: bold; margin-bottom: 0.5em; line-height: 1.2; max-width: 100%;">
 <span style="font-size: 2.0em; font-weight: bold;">Hi, I'm Youngjin Moon</span><br>
-<span style="font-size: 1.2em; font-style: italic;">and working toward <em style="font-size: 1.8em; color:rgb(228, 92, 92); font-style: italic;">Hardware-efficient AI Architecture</em></span>
+<span style="font-size: 1.2em; font-style: italic;">and I'm working toward <em style="font-size: 1.8em; color:rgb(228, 92, 92); font-style: italic; white-space: nowrap;">Hardware-efficient AI Architecture</em></span>
 </div>
 
 <div class="notice" markdown="1" style="text-align: center; font-size: 1.7em;">
