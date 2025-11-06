@@ -6,7 +6,7 @@ collection: portfolio
 
 <img src="/images/project/SLYTHERIN_ISCAS25.png" alt="SLYTHERIN ISCAS25" style="max-width: 550px; width: 100%; height: auto; margin: 20px 0;">
 
-SLYTHERIN is a chip architecture that embodies the meaning as a space where the Mamba model can move smoothly like a snake, just like Slytherin in Harry Potter.
+SLYTHERIN is a chip architecture that embodies the meaning as a space where the Mamba model can move smoothly like a snake, just like "Slytherin" in Harry Potter.
 
 My Contributions:
 - Development of total features in SLYTHERIN
