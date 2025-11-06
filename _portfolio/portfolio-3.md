@@ -8,6 +8,9 @@ collection: portfolio
 
 <img src="/images/project/NuVPU_VLSI25_architecture.png" alt="NuVPU Architecture" style="max-width: 400px; width: 100%; height: auto; margin: 20px 0;">
 
+**Tape-out:** April 2024  
+**Wafer-out:** August 2024
+
 My Contributions:
 - Development of frequency-driven mixed compression
 - Design of Memory Management Unit
