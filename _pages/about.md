@@ -25,8 +25,8 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid rgb(105, 168, 126); font-size: 3em;">
 - ***ML Level:*** Sparsity exploration for efficient processing while preserving model accuracy
-- ***System Level:*** GPU kernel support for sparse AI on existing compute platforms
-- ***Architecture Level:*** Novel architectural changes to better support sparsity and improve efficiency
+- ***System Level:*** GPU kernel optimization for sparse AI workloads on current hardware platforms
+- ***Architecture Level:*** Innovative architectural designs to enhance sparsity support and boost efficiency
 - ***Circuit Level:*** End-to-end chip implementation and post-silicon measurement for performance validation
 - <span style="font-weight: normal;">Especially in hardware-efficient LLMs, video AIs, and accelerator architectures</span>
 </div>
