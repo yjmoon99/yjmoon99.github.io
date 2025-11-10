@@ -57,10 +57,10 @@ IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Sangwoo Ha, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Sunjoo Whang, Wooyoung Jo, Junha Ryu, and Hoi-Jun Yoo</span>
 
-IEEE International Conference on Solid-State Circuits (**ISSCC**), **2026** <em style="color: red; font-style: italic;">(To appear)</em><br>
+IEEE International Conference on Solid-State Circuits (**ISSCC**), **2026** <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
-[Paper]{: .btn .btn--danger .btn--small}
+[Paper](#){: .btn .btn--danger .btn--small}
 
 </div>
 
@@ -84,7 +84,7 @@ IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo</span>
 
-IEEE Transactions on Circuits and Systems I: Regular Papers (**TCAS-I**), **2026**  
+IEEE Transactions on Circuits and Systems I: Regular Papers (**TCAS-I**), **2026**  <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
