@@ -5,8 +5,8 @@ collection: portfolio
 ---
 
 <img src="/images/project/NuVPU_VLSI25_2404_2408.png" alt="NuVPU VLSI25" style="max-width: 400px; width: 100%; height: auto; margin: 20px auto; display: block;">
-<div style="background-color: #e8f4f8; border-left: 4px solid #0066cc; padding: 10px 15px; margin: 15px 0; border-radius: 4px;">
-<strong style="color: #0066cc; font-size: 0.95em;">💾 Youngjin:</strong> <span style="color: #004080; font-weight: 600; font-size: 0.95em;"> Architect & FE Designer (Memory Management Unit)</span>
+<div style="background-color: #ffffff; border: 1px solid #e0e0e0; padding: 12px 15px; margin: 15px 0; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<strong style="color: #333333; font-size: 0.95em;">⚡ Youngjin:</strong> <span style="color: #000000; font-weight: 600; font-size: 0.95em;"> Architect & FE Designer (Memory Management Unit)</span>
 </div>
 <img src="/images/project/NuVPU_VLSI25_architecture.png" alt="NuVPU Architecture" style="max-width: 400px; width: 100%; height: auto; margin: 20px auto; display: block;">
 
