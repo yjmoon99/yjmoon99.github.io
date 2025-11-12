@@ -8,10 +8,13 @@ collection: portfolio
 <div style="background-color: #ffffff; border: 1px solid #e0e0e0; padding: 12px 15px; margin: 15px 0; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 <strong style="color: #333333; font-size: 0.95em;">⚡ Youngjin:</strong> <span style="color: #555555; font-weight: normal; font-size: 0.95em;"> Architect & FE Designer (Memory Management Unit)</span>
 </div>
+
+<div style="background-color: #ffffff; border: 1px solid #e0e0e0; padding: 12px 15px; margin: 15px 0; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<strong style="color: #333333; font-size: 0.95em;">📅 Tape-out:</strong> <span style="color: #555555; font-weight: normal; font-size: 0.95em;">2024/04</span> | <strong style="color: #333333; font-size: 0.95em;">📅 Wafer-out:</strong> <span style="color: #555555; font-weight: normal; font-size: 0.95em;">2024/08</span>
+</div>
+
 <img src="/images/project/NuVPU_VLSI25_architecture.png" alt="NuVPU Architecture" style="max-width: 400px; width: 100%; height: auto; margin: 20px auto; display: block;">
 
-
-**Tape-out:** 2024/04 | **Wafer-out:** 2024/08
 
 <p style="margin-bottom: 1.5em;"></p>
 
