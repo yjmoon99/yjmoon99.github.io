@@ -8,6 +8,8 @@ collection: portfolio
 
 <img src="/images/project/NuVPU_VLSI25_architecture.png" alt="NuVPU Architecture" style="max-width: 400px; width: 100%; height: auto; margin: 20px auto; display: block;">
 
+**Youngjin:** Designer (Memory Management Unit)
+
 **Tape-out:** 2024/04 | **Wafer-out:** 2024/08
 
 <p style="margin-bottom: 1.5em;"></p>
