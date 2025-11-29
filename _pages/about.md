@@ -28,7 +28,7 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 - ***System Level:*** GPU kernel optimization for sparse AI workloads on current hardware platforms
 - ***Architecture Level:*** Innovative architectural designs to enhance sparsity support and boost efficiency
 - ***Circuit Level:*** End-to-end chip implementation and post-silicon measurement for performance validation
-- <span style="font-weight: normal;">Especially in hardware-efficient LLMs, video AIs, and accelerator architectures</span>
+- <span style="font-weight: normal;">Especially focusing on hardware-efficient transformer models, post-transformer models, and accelerator architectures in LLM and Video AI domains</span>
 </div>
 
 <h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Publications</h2>
@@ -63,6 +63,21 @@ IEEE International Conference on Solid-State Circuits (**ISSCC**), **2026** <em 
 [Paper](#){: .btn .btn--danger .btn--small}
 
 </div>
+
+<!-- When You use "To Appear, Refer Below" -->
+<!-- <div class="notice notice--info" markdown="1" style="border-left: 4px solid transparent; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
+**SMoLPU: A 122.1 μJ/token Sparse MoE-based Speculative Decoding LLM Processing Unit with Adaptive-Offload NPU-CIM Core**
+
+<span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Sangwoo Ha, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Sunjoo Whang, Wooyoung Jo, Gwangtae Park, Soyeon Um, Junha Ryu, Yurim Jo, and Hoi-Jun Yoo</span>
+
+IEEE International Conference on Solid-State Circuits (**ISSCC**), **2026** <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
+<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+
+[Paper](#){: .btn .btn--danger .btn--small}
+
+</div> -->
+
+
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid transparent; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 **NuVPU: A 4.8~9.6 mJ/frame Progressive NTT-based Unified Video Processor for Stable Video Streaming and Processing with Neural Video Codec**
