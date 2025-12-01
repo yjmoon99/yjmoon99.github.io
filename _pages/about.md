@@ -28,7 +28,7 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 - ***System Level:*** GPU kernel optimization for sparse AI workloads on current hardware platforms
 - ***Architecture Level:*** Innovative architectural designs to enhance sparsity support and boost efficiency
 - ***Circuit Level:*** End-to-end chip implementation and post-silicon measurement for performance validation
-- <span style="font-weight: normal;">Especially focusing on hardware-efficient transformer models, post-transformer models, and accelerator architectures in LLM and Video AI domains</span>
+- <span style="font-weight: bold;">Especially focusing on hardware-efficient transformer models, post-transformer models, and accelerator architectures in LLM and Video AI domains</span>
 </div>
 
 <h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Publications</h2>
