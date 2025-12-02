@@ -31,6 +31,10 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 - <span style="font-weight: bold;">Especially focusing on hardware-efficient transformer models, post-transformer models, and accelerator architectures in LLM and Video AI domains</span>
 </div>
 
+<div style="text-align: center;">
+<img src="{{ base_path }}/images/hierarchy2.png" alt="Holistic System Hierarchy" style="max-width: 90%; height: auto;">
+</div>
+
 <h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Publications</h2>
 <div class="notice" markdown="1" style="text-align: center; font-size: 1.7em;">
 💡 *Each project I work on carries a unique design philosophy.* 💡<br>
