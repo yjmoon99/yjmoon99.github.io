@@ -33,13 +33,13 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 
 <h2 style="font-size: 1.7em; font-weight: bold; color: #000;">Publications</h2>
 
-<div style="text-align: center;">
-<img src="{{ base_path }}/images/hierarchy2.png" alt="Holistic System Hierarchy" style="max-width: 90%; height: auto;">
-</div>
-
 <div class="notice" markdown="1" style="text-align: center; font-size: 1.7em;">
 💡 *Each project I work on carries a unique design philosophy.* 💡<br>
 🎨 *Giving it a name helps me preserve that philosophy and communicate it more intuitively.* 🎨
+</div>
+
+<div style="text-align: center;">
+<img src="{{ base_path }}/images/hierarchy2.png" alt="Holistic System Hierarchy" style="max-width: 90%; height: auto;">
 </div>
 
 ### Conference Papers
