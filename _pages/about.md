@@ -38,9 +38,9 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 🎨 *Giving it a name helps me preserve that philosophy and communicate it more intuitively.* 🎨
 </div>
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <img src="{{ base_path }}/images/hierarchy2.png" alt="Holistic System Hierarchy" style="max-width: 90%; height: auto;">
-</div>
+</div> -->
 
 ### Conference Papers
 
