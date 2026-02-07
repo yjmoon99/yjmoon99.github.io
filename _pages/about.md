@@ -100,7 +100,7 @@ IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
 ### Journal Papers
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
-🐍 **An Energy-Efficient Mamba Accelerator for Real-Time Edge Video Understanding underpinned by Redundancy-Conscious Design**
+🐍 **An Energy-Efficient State-Space Model Accelerator for Real-Time Video Understanding underpinned by Redundancy-Conscious Design**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo</span>
 
