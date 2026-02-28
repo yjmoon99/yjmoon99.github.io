@@ -107,7 +107,8 @@ IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
 IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), **2026**  <em style="color: red; font-style: italic; font-weight: bold;">(Under Review)</em><br>
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
-[Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small}
+[Paper](#){: .btn .btn--danger .btn--small}
+<!-- [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small} -->
 
 <em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"SLYTHERIN's Tiki-Taka of Redundancy in Mamba!!"</em>
 </div>
