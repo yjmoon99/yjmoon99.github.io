@@ -66,20 +66,18 @@
     let total = getStoredCount(TOTAL_KEY);
     let today = getStoredCount(todayKey);
     
-    // Get current page URL
+    // Get current page URL (without hash and query parameters for comparison)
     const currentPage = window.location.pathname;
+    const lastVisitedPage = sessionStorage.getItem('last_visited_page');
     
-    // Check if current page is a portfolio page
-    const isPortfolioPage = currentPage.startsWith('/portfolio/') || currentPage === '/portfolio';
-    
-    // Check if already visited portfolio in this session
-    const hasVisitedPortfolio = sessionStorage.getItem('visited_portfolio') === 'true';
-    
+    // Check if this is a different page (new visit)
     // Only increment if:
-    // 1. Current page is a portfolio page
-    // 2. Haven't visited portfolio in this session yet
-    if (isPortfolioPage && !hasVisitedPortfolio) {
-      // First visit to portfolio - increment
+    // 1. No last visited page recorded (first visit ever)
+    // 2. Current page is different from last visited page (navigated to different page)
+    const isNewPage = !lastVisitedPage || lastVisitedPage !== currentPage;
+    
+    if (isNewPage) {
+      // New page visit - increment
       total += 1;
       today += 1;
       
@@ -87,13 +85,13 @@
       setStoredCount(TOTAL_KEY, total);
       setStoredCount(todayKey, today);
       
-      // Mark portfolio as visited in this session
-      sessionStorage.setItem('visited_portfolio', 'true');
+      // Record current page
+      sessionStorage.setItem('last_visited_page', currentPage);
       
       // Update display with feedback
       updateDisplay(total, today, true);
     } else {
-      // Not portfolio page, or already visited portfolio - just show counts (no increment)
+      // Same page - just show counts (no increment)
       updateDisplay(total, today, false);
     }
   }
