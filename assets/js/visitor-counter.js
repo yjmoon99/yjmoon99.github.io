@@ -60,15 +60,26 @@
   
   // Initialize counter
   function init() {
-    const hasVisited = sessionStorage.getItem(SESSION_KEY);
     const todayKey = getTodayKey();
     
     // Get current counts
     let total = getStoredCount(TOTAL_KEY);
     let today = getStoredCount(todayKey);
     
-    if (!hasVisited) {
-      // First visit in this session - increment
+    // Check if this is a new page load (not just a navigation within the same session)
+    // Use a combination of sessionStorage and a timestamp to detect new visits
+    const lastVisitTime = sessionStorage.getItem('last_visit_time');
+    const currentTime = Date.now();
+    const VISIT_INTERVAL = 1000; // Minimum 1 second between visits to count as new
+    
+    // Always increment if:
+    // 1. No last visit time recorded (first visit)
+    // 2. More than 1 second has passed since last visit (new page load)
+    // 3. Different day (for today counter)
+    const isNewVisit = !lastVisitTime || (currentTime - parseInt(lastVisitTime, 10)) > VISIT_INTERVAL;
+    
+    if (isNewVisit) {
+      // New visit - increment
       total += 1;
       today += 1;
       
@@ -76,13 +87,13 @@
       setStoredCount(TOTAL_KEY, total);
       setStoredCount(todayKey, today);
       
-      // Mark as visited
-      sessionStorage.setItem(SESSION_KEY, 'true');
+      // Record visit time
+      sessionStorage.setItem('last_visit_time', currentTime.toString());
       
       // Update display with feedback
       updateDisplay(total, today, true);
     } else {
-      // Already visited - just show counts
+      // Same visit (within 1 second) - just show counts
       updateDisplay(total, today, false);
     }
   }
