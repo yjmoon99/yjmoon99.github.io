@@ -66,20 +66,18 @@
     let total = getStoredCount(TOTAL_KEY);
     let today = getStoredCount(todayKey);
     
-    // Check if this is a new page load (not just a navigation within the same session)
-    // Use a combination of sessionStorage and a timestamp to detect new visits
-    const lastVisitTime = sessionStorage.getItem('last_visit_time');
-    const currentTime = Date.now();
-    const VISIT_INTERVAL = 1000; // Minimum 1 second between visits to count as new
+    // Get current page URL (without hash and query parameters for comparison)
+    const currentPage = window.location.pathname;
+    const lastVisitedPage = sessionStorage.getItem('last_visited_page');
     
-    // Always increment if:
-    // 1. No last visit time recorded (first visit)
-    // 2. More than 1 second has passed since last visit (new page load)
-    // 3. Different day (for today counter)
-    const isNewVisit = !lastVisitTime || (currentTime - parseInt(lastVisitTime, 10)) > VISIT_INTERVAL;
+    // Check if this is a different page (new visit)
+    // Only increment if:
+    // 1. No last visited page recorded (first visit ever)
+    // 2. Current page is different from last visited page (navigated to different page)
+    const isNewPage = !lastVisitedPage || lastVisitedPage !== currentPage;
     
-    if (isNewVisit) {
-      // New visit - increment
+    if (isNewPage) {
+      // New page visit - increment
       total += 1;
       today += 1;
       
@@ -87,13 +85,13 @@
       setStoredCount(TOTAL_KEY, total);
       setStoredCount(todayKey, today);
       
-      // Record visit time
-      sessionStorage.setItem('last_visit_time', currentTime.toString());
+      // Record current page
+      sessionStorage.setItem('last_visited_page', currentPage);
       
       // Update display with feedback
       updateDisplay(total, today, true);
     } else {
-      // Same visit (within 1 second) - just show counts
+      // Same page - just show counts (no increment)
       updateDisplay(total, today, false);
     }
   }
