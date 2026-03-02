@@ -26,7 +26,7 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid rgb(105, 168, 126); font-size: 3em;">
 - ***ML Level:*** Quantization and sparsity exploration for efficient processing while preserving model accuracy
 - ***System Level:*** GPU kernel optimization for sparse AI workloads on current hardware platforms
-- ***Architecture Level:*** Innovative architectural designs to enhance sparsity support and boost efficiency
+- ***Architecture Level:*** Innovative system-on-chip (SoC) architectures that improve hardware efficiency.
 - ***Circuit Level:*** End-to-end chip implementation and post-silicon measurement for performance validation
 - <span style="font-weight: bold;">Especially focusing on hardware-efficient transformer models, post-transformer models, and accelerator architectures in LLM and Video AI domains</span>
 </div>
