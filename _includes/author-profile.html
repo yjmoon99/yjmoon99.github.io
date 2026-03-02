@@ -48,6 +48,11 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
       {% endif %}
+      <li style="margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--global-border-color);">
+        <span style="color: #666; font-size: 0.9em;">
+          <i class="fas fa-fw fa-eye icon-pad-right" aria-hidden="true"></i>Visitors: <span id="visitor-counter" style="color: #0066cc; font-weight: bold;">-</span>
+        </span>
+      </li>
       {% if author.academia %}
         <li><a href="{{ author.academia }}"><i class="ai ai-academia ai-fw icon-pad-right" aria-hidden="true"></i>Academia</a></li>
       {% endif %}
@@ -169,3 +174,5 @@
     </ul>
   </div>
 </div>
+
+<script src="{{ base_path }}/assets/js/visitor-counter.js"></script>
