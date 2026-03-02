@@ -14,20 +14,56 @@
     const sessionKey = 'visitor_counter_session';
     const hasVisited = sessionStorage.getItem(sessionKey);
     
+    // Store previous counts to detect increments
+    let previousTotal = null;
+    let previousToday = null;
+    
     // Function to update the counter display
-    function updateCounters(totalCount, todayCount) {
+    function updateCounters(totalCount, todayCount, isIncrement = false) {
       const totalElement = document.getElementById('visitor-counter-total');
       const todayElement = document.getElementById('visitor-counter-today');
+      const totalFeedback = document.getElementById('visitor-feedback-total');
+      const todayFeedback = document.getElementById('visitor-feedback-today');
       
       if (totalElement) {
         const formattedTotal = (totalCount || 0).toLocaleString('en-US');
+        const oldValue = parseInt(totalElement.textContent.replace(/,/g, '')) || 0;
         totalElement.textContent = formattedTotal;
+        
+        // Show +1 feedback if incremented (always show on increment, or if count increased)
+        if (isIncrement && (previousTotal === null || totalCount > previousTotal)) {
+          totalElement.classList.add('counter-highlight');
+          if (totalFeedback) {
+            totalFeedback.style.display = 'inline';
+            setTimeout(() => {
+              totalFeedback.style.display = 'none';
+              totalElement.classList.remove('counter-highlight');
+            }, 2000);
+          }
+        }
       }
       
       if (todayElement) {
         const formattedToday = (todayCount || 0).toLocaleString('en-US');
+        const oldValue = parseInt(todayElement.textContent.replace(/,/g, '')) || 0;
         todayElement.textContent = formattedToday;
+        
+        // Show +1 feedback if incremented (always show on increment, or if count increased)
+        if (isIncrement && (previousToday === null || todayCount > previousToday)) {
+          todayElement.classList.add('counter-highlight');
+          if (todayFeedback) {
+            todayFeedback.style.display = 'inline';
+            setTimeout(() => {
+              todayFeedback.style.display = 'none';
+              todayElement.classList.remove('counter-highlight');
+            }, 2000);
+          }
+        }
       }
+      
+      // Update previous counts
+      previousTotal = totalCount;
+      previousToday = todayCount;
     }
     
     // Function to handle API response
@@ -52,7 +88,7 @@
           const totalCount = totalData.value !== undefined ? totalData.value : 0;
           const todayCount = todayData.value !== undefined ? todayData.value : 0;
           console.log('Counters incremented - Total:', totalCount, 'Today:', todayCount);
-          updateCounters(totalCount, todayCount);
+          updateCounters(totalCount, todayCount, true);
         })
         .catch(error => {
           console.error('Error updating visitor counter:', error);
@@ -74,7 +110,7 @@
           const totalCount = totalData.value !== undefined ? totalData.value : 0;
           const todayCount = todayData.value !== undefined ? todayData.value : 0;
           console.log('Current counts - Total:', totalCount, 'Today:', todayCount);
-          updateCounters(totalCount, todayCount);
+          updateCounters(totalCount, todayCount, false);
         })
         .catch(error => {
           console.error('Error getting visitor count:', error);
