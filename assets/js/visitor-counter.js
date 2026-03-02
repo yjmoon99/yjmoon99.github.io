@@ -16,33 +16,52 @@
     return `${year}-${month}-${day}`;
   }
   
+  // Store previous values to detect increments
+  let prevTotal = null;
+  let prevToday = null;
+  
   // Update counter display
-  function updateDisplay(total, today) {
+  function updateDisplay(total, today, showFeedback = false) {
     const totalEl = document.getElementById('visitor-counter-total');
     const todayEl = document.getElementById('visitor-counter-today');
     const totalFeedback = document.getElementById('visitor-feedback-total');
     const todayFeedback = document.getElementById('visitor-feedback-today');
     
+    // Update total
     if (totalEl) {
+      const oldTotal = parseInt(totalEl.textContent.replace(/,/g, '')) || 0;
       totalEl.textContent = total.toLocaleString('en-US');
-    }
-    if (todayEl) {
-      todayEl.textContent = today.toLocaleString('en-US');
+      
+      // Show +1 only if actually incremented
+      if (showFeedback && totalFeedback && (prevTotal === null || total > (prevTotal || 0))) {
+        totalFeedback.style.display = 'inline';
+        totalEl.classList.add('counter-highlight');
+        setTimeout(() => {
+          totalFeedback.style.display = 'none';
+          totalEl.classList.remove('counter-highlight');
+        }, 2000);
+      }
     }
     
-    // Show +1 feedback
-    if (totalFeedback) {
-      totalFeedback.style.display = 'inline';
-      setTimeout(() => {
-        totalFeedback.style.display = 'none';
-      }, 2000);
+    // Update today
+    if (todayEl) {
+      const oldToday = parseInt(todayEl.textContent.replace(/,/g, '')) || 0;
+      todayEl.textContent = today.toLocaleString('en-US');
+      
+      // Show +1 only if actually incremented
+      if (showFeedback && todayFeedback && (prevToday === null || today > (prevToday || 0))) {
+        todayFeedback.style.display = 'inline';
+        todayEl.classList.add('counter-highlight');
+        setTimeout(() => {
+          todayFeedback.style.display = 'none';
+          todayEl.classList.remove('counter-highlight');
+        }, 2000);
+      }
     }
-    if (todayFeedback) {
-      todayFeedback.style.display = 'inline';
-      setTimeout(() => {
-        todayFeedback.style.display = 'none';
-      }, 2000);
-    }
+    
+    // Update previous values
+    prevTotal = total;
+    prevToday = today;
   }
   
   // Increment counters
@@ -51,40 +70,51 @@
     const totalUrl = `https://api.countapi.xyz/hit/${NAMESPACE}/${TOTAL_KEY}`;
     const todayUrl = `https://api.countapi.xyz/hit/${NAMESPACE}/${todayKey}`;
     
-    // Increment total
-    fetch(totalUrl)
-      .then(response => {
-        if (!response.ok) throw new Error('Total API failed');
-        return response.json();
-      })
-      .then(data => {
-        const totalCount = data.value || 0;
-        
-        // Increment today
-        return fetch(todayUrl)
-          .then(response => {
-            if (!response.ok) throw new Error('Today API failed');
-            return response.json();
-          })
-          .then(todayData => {
-            const todayCount = todayData.value || 0;
-            updateDisplay(totalCount, todayCount);
-          })
-          .catch(() => {
-            updateDisplay(totalCount, 0);
-          });
-      })
-      .catch(() => {
-        // If total fails, try to get today
-        fetch(todayUrl)
-          .then(response => response.json())
-          .then(data => {
-            updateDisplay(0, data.value || 0);
-          })
-          .catch(() => {
-            updateDisplay(0, 0);
-          });
-      });
+    console.log('Incrementing counters...', { totalUrl, todayUrl });
+    
+    // Increment both in parallel
+    Promise.all([
+      fetch(totalUrl)
+        .then(response => {
+          console.log('Total response status:', response.status);
+          if (!response.ok) {
+            throw new Error(`Total API failed: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          console.log('Total response data:', data);
+          return data.value !== undefined ? data.value : (data.count !== undefined ? data.count : 0);
+        })
+        .catch(error => {
+          console.error('Total fetch error:', error);
+          return 0;
+        }),
+      fetch(todayUrl)
+        .then(response => {
+          console.log('Today response status:', response.status);
+          if (!response.ok) {
+            throw new Error(`Today API failed: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          console.log('Today response data:', data);
+          return data.value !== undefined ? data.value : (data.count !== undefined ? data.count : 0);
+        })
+        .catch(error => {
+          console.error('Today fetch error:', error);
+          return 0;
+        })
+    ])
+    .then(([totalCount, todayCount]) => {
+      console.log('Final counts - Total:', totalCount, 'Today:', todayCount);
+      updateDisplay(totalCount, todayCount, true);
+    })
+    .catch(error => {
+      console.error('Error in incrementCounters:', error);
+      updateDisplay(0, 0, false);
+    });
   }
   
   // Get current counts without incrementing
@@ -94,16 +124,20 @@
     const todayUrl = `https://api.countapi.xyz/get/${NAMESPACE}/${todayKey}`;
     
     Promise.all([
-      fetch(totalUrl).then(r => r.ok ? r.json() : { value: 0 }).catch(() => ({ value: 0 })),
-      fetch(todayUrl).then(r => r.ok ? r.json() : { value: 0 }).catch(() => ({ value: 0 }))
+      fetch(totalUrl)
+        .then(r => r.ok ? r.json() : { value: 0 })
+        .then(data => data.value !== undefined ? data.value : (data.count !== undefined ? data.count : 0))
+        .catch(() => 0),
+      fetch(todayUrl)
+        .then(r => r.ok ? r.json() : { value: 0 })
+        .then(data => data.value !== undefined ? data.value : (data.count !== undefined ? data.count : 0))
+        .catch(() => 0)
     ])
-    .then(([totalData, todayData]) => {
-      const total = totalData.value || 0;
-      const today = todayData.value || 0;
-      updateDisplay(total, today);
+    .then(([total, today]) => {
+      updateDisplay(total, today, false);
     })
     .catch(() => {
-      updateDisplay(0, 0);
+      updateDisplay(0, 0, false);
     });
   }
   
