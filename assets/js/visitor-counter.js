@@ -51,6 +51,7 @@
         .then(([totalData, todayData]) => {
           const totalCount = totalData.value !== undefined ? totalData.value : 0;
           const todayCount = todayData.value !== undefined ? todayData.value : 0;
+          console.log('Counters incremented - Total:', totalCount, 'Today:', todayCount);
           updateCounters(totalCount, todayCount);
         })
         .catch(error => {
@@ -72,6 +73,7 @@
         .then(([totalData, todayData]) => {
           const totalCount = totalData.value !== undefined ? totalData.value : 0;
           const todayCount = todayData.value !== undefined ? todayData.value : 0;
+          console.log('Current counts - Total:', totalCount, 'Today:', todayCount);
           updateCounters(totalCount, todayCount);
         })
         .catch(error => {
@@ -84,10 +86,12 @@
     // Initialize counter
     if (!hasVisited) {
       // First visit in this session - increment the counters
+      console.log('First visit in this session - incrementing counters');
       sessionStorage.setItem(sessionKey, 'true');
       incrementCounters();
     } else {
       // Already visited in this session - just display current counts
+      console.log('Already visited in this session - showing current counts');
       getCurrentCounts();
     }
   }
