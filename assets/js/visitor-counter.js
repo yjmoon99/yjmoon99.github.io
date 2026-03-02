@@ -80,14 +80,41 @@
       const totalUrl = `https://api.countapi.xyz/hit/${NAMESPACE}/${TOTAL_KEY}`;
       const todayUrl = `https://api.countapi.xyz/hit/${NAMESPACE}/${TODAY_KEY}`;
       
+      console.log('Incrementing counters - URLs:', totalUrl, todayUrl);
+      
       Promise.all([
-        fetch(totalUrl).then(handleResponse).catch(() => ({ value: 0 })),
-        fetch(todayUrl).then(handleResponse).catch(() => ({ value: 0 }))
+        fetch(totalUrl)
+          .then(response => {
+            console.log('Total response status:', response.status);
+            return handleResponse(response);
+          })
+          .then(data => {
+            console.log('Total response data:', data);
+            return data;
+          })
+          .catch(error => {
+            console.error('Total fetch error:', error);
+            return { value: 0 };
+          }),
+        fetch(todayUrl)
+          .then(response => {
+            console.log('Today response status:', response.status);
+            return handleResponse(response);
+          })
+          .then(data => {
+            console.log('Today response data:', data);
+            return data;
+          })
+          .catch(error => {
+            console.error('Today fetch error:', error);
+            return { value: 0 };
+          })
       ])
         .then(([totalData, todayData]) => {
-          const totalCount = totalData.value !== undefined ? totalData.value : 0;
-          const todayCount = todayData.value !== undefined ? todayData.value : 0;
-          console.log('Counters incremented - Total:', totalCount, 'Today:', todayCount);
+          console.log('Raw response - Total:', totalData, 'Today:', todayData);
+          const totalCount = totalData && (totalData.value !== undefined ? totalData.value : (totalData.count !== undefined ? totalData.count : 0));
+          const todayCount = todayData && (todayData.value !== undefined ? todayData.value : (todayData.count !== undefined ? todayData.count : 0));
+          console.log('Parsed counts - Total:', totalCount, 'Today:', todayCount);
           updateCounters(totalCount, todayCount, true);
         })
         .catch(error => {
@@ -103,12 +130,22 @@
       const todayUrl = `https://api.countapi.xyz/get/${NAMESPACE}/${TODAY_KEY}`;
       
       Promise.all([
-        fetch(totalUrl).then(handleResponse).catch(() => ({ value: 0 })),
-        fetch(todayUrl).then(handleResponse).catch(() => ({ value: 0 }))
+        fetch(totalUrl)
+          .then(handleResponse)
+          .catch(error => {
+            console.error('Total get error:', error);
+            return { value: 0 };
+          }),
+        fetch(todayUrl)
+          .then(handleResponse)
+          .catch(error => {
+            console.error('Today get error:', error);
+            return { value: 0 };
+          })
       ])
         .then(([totalData, todayData]) => {
-          const totalCount = totalData.value !== undefined ? totalData.value : 0;
-          const todayCount = todayData.value !== undefined ? todayData.value : 0;
+          const totalCount = totalData && (totalData.value !== undefined ? totalData.value : (totalData.count !== undefined ? totalData.count : 0));
+          const todayCount = todayData && (todayData.value !== undefined ? todayData.value : (todayData.count !== undefined ? todayData.count : 0));
           console.log('Current counts - Total:', totalCount, 'Today:', todayCount);
           updateCounters(totalCount, todayCount, false);
         })
