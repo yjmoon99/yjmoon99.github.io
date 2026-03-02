@@ -1,179 +1,131 @@
-// Visitor Counter using countapi.xyz
+// Visitor Counter - Simple and Reliable Version
 (function() {
-  // Wait for DOM to be ready
-  function initCounter() {
-    // Unique namespace for this site
-    const NAMESPACE = 'yjmoon99.github.io';
-    const TOTAL_KEY = 'visitor_count_total';
+  'use strict';
+  
+  // Configuration
+  const NAMESPACE = 'yjmoon99.github.io';
+  const TOTAL_KEY = 'total';
+  const SESSION_KEY = 'visitor_session';
+  
+  // Get today's date in YYYY-MM-DD format
+  function getTodayKey() {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  }
+  
+  // Update counter display
+  function updateDisplay(total, today) {
+    const totalEl = document.getElementById('visitor-counter-total');
+    const todayEl = document.getElementById('visitor-counter-today');
+    const totalFeedback = document.getElementById('visitor-feedback-total');
+    const todayFeedback = document.getElementById('visitor-feedback-today');
     
-    // Get today's date in YYYY-MM-DD format
-    const today = new Date().toISOString().split('T')[0];
-    const TODAY_KEY = `visitor_count_${today}`;
-    
-    // Check if this is the first visit in this session
-    const sessionKey = 'visitor_counter_session';
-    const hasVisited = sessionStorage.getItem(sessionKey);
-    
-    // Store previous counts to detect increments
-    let previousTotal = null;
-    let previousToday = null;
-    
-    // Function to update the counter display
-    function updateCounters(totalCount, todayCount, isIncrement = false) {
-      const totalElement = document.getElementById('visitor-counter-total');
-      const todayElement = document.getElementById('visitor-counter-today');
-      const totalFeedback = document.getElementById('visitor-feedback-total');
-      const todayFeedback = document.getElementById('visitor-feedback-today');
-      
-      if (totalElement) {
-        const formattedTotal = (totalCount || 0).toLocaleString('en-US');
-        const oldValue = parseInt(totalElement.textContent.replace(/,/g, '')) || 0;
-        totalElement.textContent = formattedTotal;
-        
-        // Show +1 feedback if incremented (always show on increment, or if count increased)
-        if (isIncrement && (previousTotal === null || totalCount > previousTotal)) {
-          totalElement.classList.add('counter-highlight');
-          if (totalFeedback) {
-            totalFeedback.style.display = 'inline';
-            setTimeout(() => {
-              totalFeedback.style.display = 'none';
-              totalElement.classList.remove('counter-highlight');
-            }, 2000);
-          }
-        }
-      }
-      
-      if (todayElement) {
-        const formattedToday = (todayCount || 0).toLocaleString('en-US');
-        const oldValue = parseInt(todayElement.textContent.replace(/,/g, '')) || 0;
-        todayElement.textContent = formattedToday;
-        
-        // Show +1 feedback if incremented (always show on increment, or if count increased)
-        if (isIncrement && (previousToday === null || todayCount > previousToday)) {
-          todayElement.classList.add('counter-highlight');
-          if (todayFeedback) {
-            todayFeedback.style.display = 'inline';
-            setTimeout(() => {
-              todayFeedback.style.display = 'none';
-              todayElement.classList.remove('counter-highlight');
-            }, 2000);
-          }
-        }
-      }
-      
-      // Update previous counts
-      previousTotal = totalCount;
-      previousToday = todayCount;
+    if (totalEl) {
+      totalEl.textContent = total.toLocaleString('en-US');
+    }
+    if (todayEl) {
+      todayEl.textContent = today.toLocaleString('en-US');
     }
     
-    // Function to handle API response
-    function handleResponse(response) {
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      return response.json();
+    // Show +1 feedback
+    if (totalFeedback) {
+      totalFeedback.style.display = 'inline';
+      setTimeout(() => {
+        totalFeedback.style.display = 'none';
+      }, 2000);
     }
-    
-    // Function to increment both counters
-    function incrementCounters() {
-      // Increment total counter
-      const totalUrl = `https://api.countapi.xyz/hit/${NAMESPACE}/${TOTAL_KEY}`;
-      const todayUrl = `https://api.countapi.xyz/hit/${NAMESPACE}/${TODAY_KEY}`;
-      
-      console.log('Incrementing counters - URLs:', totalUrl, todayUrl);
-      
-      Promise.all([
-        fetch(totalUrl)
-          .then(response => {
-            console.log('Total response status:', response.status);
-            return handleResponse(response);
-          })
-          .then(data => {
-            console.log('Total response data:', data);
-            return data;
-          })
-          .catch(error => {
-            console.error('Total fetch error:', error);
-            return { value: 0 };
-          }),
-        fetch(todayUrl)
-          .then(response => {
-            console.log('Today response status:', response.status);
-            return handleResponse(response);
-          })
-          .then(data => {
-            console.log('Today response data:', data);
-            return data;
-          })
-          .catch(error => {
-            console.error('Today fetch error:', error);
-            return { value: 0 };
-          })
-      ])
-        .then(([totalData, todayData]) => {
-          console.log('Raw response - Total:', totalData, 'Today:', todayData);
-          const totalCount = totalData && (totalData.value !== undefined ? totalData.value : (totalData.count !== undefined ? totalData.count : 0));
-          const todayCount = todayData && (todayData.value !== undefined ? todayData.value : (todayData.count !== undefined ? todayData.count : 0));
-          console.log('Parsed counts - Total:', totalCount, 'Today:', todayCount);
-          updateCounters(totalCount, todayCount, true);
-        })
-        .catch(error => {
-          console.error('Error updating visitor counter:', error);
-          // Fallback: try to get current count without incrementing
-          getCurrentCounts();
-        });
-    }
-    
-    // Function to get current counts without incrementing
-    function getCurrentCounts() {
-      const totalUrl = `https://api.countapi.xyz/get/${NAMESPACE}/${TOTAL_KEY}`;
-      const todayUrl = `https://api.countapi.xyz/get/${NAMESPACE}/${TODAY_KEY}`;
-      
-      Promise.all([
-        fetch(totalUrl)
-          .then(handleResponse)
-          .catch(error => {
-            console.error('Total get error:', error);
-            return { value: 0 };
-          }),
-        fetch(todayUrl)
-          .then(handleResponse)
-          .catch(error => {
-            console.error('Today get error:', error);
-            return { value: 0 };
-          })
-      ])
-        .then(([totalData, todayData]) => {
-          const totalCount = totalData && (totalData.value !== undefined ? totalData.value : (totalData.count !== undefined ? totalData.count : 0));
-          const todayCount = todayData && (todayData.value !== undefined ? todayData.value : (todayData.count !== undefined ? todayData.count : 0));
-          console.log('Current counts - Total:', totalCount, 'Today:', todayCount);
-          updateCounters(totalCount, todayCount, false);
-        })
-        .catch(error => {
-          console.error('Error getting visitor count:', error);
-          // Show 0 if API fails
-          updateCounters(0, 0);
-        });
-    }
-    
-    // Initialize counter
-    if (!hasVisited) {
-      // First visit in this session - increment the counters
-      console.log('First visit in this session - incrementing counters');
-      sessionStorage.setItem(sessionKey, 'true');
-      incrementCounters();
-    } else {
-      // Already visited in this session - just display current counts
-      console.log('Already visited in this session - showing current counts');
-      getCurrentCounts();
+    if (todayFeedback) {
+      todayFeedback.style.display = 'inline';
+      setTimeout(() => {
+        todayFeedback.style.display = 'none';
+      }, 2000);
     }
   }
   
-  // Wait for DOM to be ready
+  // Increment counters
+  function incrementCounters() {
+    const todayKey = getTodayKey();
+    const totalUrl = `https://api.countapi.xyz/hit/${NAMESPACE}/${TOTAL_KEY}`;
+    const todayUrl = `https://api.countapi.xyz/hit/${NAMESPACE}/${todayKey}`;
+    
+    // Increment total
+    fetch(totalUrl)
+      .then(response => {
+        if (!response.ok) throw new Error('Total API failed');
+        return response.json();
+      })
+      .then(data => {
+        const totalCount = data.value || 0;
+        
+        // Increment today
+        return fetch(todayUrl)
+          .then(response => {
+            if (!response.ok) throw new Error('Today API failed');
+            return response.json();
+          })
+          .then(todayData => {
+            const todayCount = todayData.value || 0;
+            updateDisplay(totalCount, todayCount);
+          })
+          .catch(() => {
+            updateDisplay(totalCount, 0);
+          });
+      })
+      .catch(() => {
+        // If total fails, try to get today
+        fetch(todayUrl)
+          .then(response => response.json())
+          .then(data => {
+            updateDisplay(0, data.value || 0);
+          })
+          .catch(() => {
+            updateDisplay(0, 0);
+          });
+      });
+  }
+  
+  // Get current counts without incrementing
+  function getCounts() {
+    const todayKey = getTodayKey();
+    const totalUrl = `https://api.countapi.xyz/get/${NAMESPACE}/${TOTAL_KEY}`;
+    const todayUrl = `https://api.countapi.xyz/get/${NAMESPACE}/${todayKey}`;
+    
+    Promise.all([
+      fetch(totalUrl).then(r => r.ok ? r.json() : { value: 0 }).catch(() => ({ value: 0 })),
+      fetch(todayUrl).then(r => r.ok ? r.json() : { value: 0 }).catch(() => ({ value: 0 }))
+    ])
+    .then(([totalData, todayData]) => {
+      const total = totalData.value || 0;
+      const today = todayData.value || 0;
+      updateDisplay(total, today);
+    })
+    .catch(() => {
+      updateDisplay(0, 0);
+    });
+  }
+  
+  // Initialize
+  function init() {
+    // Check if already visited in this session
+    const hasVisited = sessionStorage.getItem(SESSION_KEY);
+    
+    if (!hasVisited) {
+      // First visit - increment
+      sessionStorage.setItem(SESSION_KEY, 'true');
+      incrementCounters();
+    } else {
+      // Already visited - just show counts
+      getCounts();
+    }
+  }
+  
+  // Wait for DOM
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initCounter);
+    document.addEventListener('DOMContentLoaded', init);
   } else {
-    // DOM is already ready
-    initCounter();
+    init();
   }
 })();
