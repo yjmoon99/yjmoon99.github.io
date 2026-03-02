@@ -16,9 +16,9 @@ I'm a first year Ph.D. Student in Korea Advanced Institute of Science and Techno
 Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <span style="color: #0066cc;">**Semiconductor System Lab (SSL)**</span>.
 </div>
 
-<div style="text-align: center; margin: 2em 0; padding: 1em; background-color: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 1.2em; color: #666; margin-bottom: 0.5em;">👁️ Total Visitors</div>
-  <div style="font-size: 2.5em; font-weight: bold; color: #0066cc;" id="visitor-counter">-</div>
+<div style="position: fixed; top: 20px; right: 20px; z-index: 1000; background-color: rgba(248, 249, 250, 0.95); padding: 8px 12px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); font-size: 0.85em; color: #666;">
+  <div style="font-size: 0.75em; margin-bottom: 2px;">👁️ Visitors</div>
+  <div style="font-size: 1.1em; font-weight: bold; color: #0066cc;" id="visitor-counter">-</div>
 </div>
 
 <script src="{{ base_path }}/assets/js/visitor-counter.js"></script>
