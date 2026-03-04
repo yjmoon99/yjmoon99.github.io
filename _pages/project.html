@@ -41,6 +41,11 @@ author_profile: true
   }
   
   .portfolio-item.hidden {
+    display: none !important;
+  }
+  
+  /* 초기 상태: simulation 항목 숨기기 */
+  .portfolio-item[data-category="simulation"] {
     display: none;
   }
 </style>
@@ -61,11 +66,9 @@ author_profile: true
   'use strict';
   
   function filterProjects(filter) {
-    console.log('Filtering by:', filter); // 디버깅용
-    
     var items = document.querySelectorAll('.portfolio-item');
     var buttons = document.querySelectorAll('.project-filter-btn');
-    var i;
+    var i, item, category;
     
     // Update button states
     for (i = 0; i < buttons.length; i++) {
@@ -78,46 +81,67 @@ author_profile: true
     
     // Filter items
     for (i = 0; i < items.length; i++) {
-      var category = items[i].getAttribute('data-category') || 'tapeout';
+      item = items[i];
+      category = item.getAttribute('data-category');
+      
+      if (!category) {
+        category = 'tapeout';
+      }
+      
       if (category === filter) {
-        items[i].classList.remove('hidden');
+        item.classList.remove('hidden');
+        item.style.display = '';
       } else {
-        items[i].classList.add('hidden');
+        item.classList.add('hidden');
+        item.style.display = 'none';
       }
     }
   }
   
-  function setupFilters() {
+  function initProjectFilter() {
     var btnTapeout = document.getElementById('btn-tapeout');
     var btnSimulation = document.getElementById('btn-simulation');
     
     if (!btnTapeout || !btnSimulation) {
-      setTimeout(setupFilters, 100);
+      setTimeout(initProjectFilter, 50);
       return;
     }
     
-    // Add click handlers directly to buttons
-    btnTapeout.onclick = function() {
+    // Remove any existing listeners by cloning
+    var newBtnTapeout = btnTapeout.cloneNode(true);
+    var newBtnSimulation = btnSimulation.cloneNode(true);
+    btnTapeout.parentNode.replaceChild(newBtnTapeout, btnTapeout);
+    btnSimulation.parentNode.replaceChild(newBtnSimulation, btnSimulation);
+    
+    // Add click handlers
+    newBtnTapeout.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
       filterProjects('tapeout');
       return false;
-    };
+    });
     
-    btnSimulation.onclick = function() {
+    newBtnSimulation.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
       filterProjects('simulation');
       return false;
-    };
+    });
     
     // Set initial filter to tapeout
     filterProjects('tapeout');
   }
   
-  // Wait for DOM to be ready
-  if (document.readyState === 'complete' || document.readyState === 'interactive') {
-    setTimeout(setupFilters, 1);
+  // Multiple initialization attempts
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initProjectFilter);
   } else {
-    document.addEventListener('DOMContentLoaded', setupFilters);
-    window.addEventListener('load', setupFilters);
+    initProjectFilter();
   }
+  
+  window.addEventListener('load', function() {
+    setTimeout(initProjectFilter, 100);
+  });
 })();
 </script>
 
