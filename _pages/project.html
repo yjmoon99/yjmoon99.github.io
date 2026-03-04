@@ -46,9 +46,8 @@ author_profile: true
 </style>
 
 <div class="project-filter-buttons">
-  <button class="project-filter-btn active" data-filter="tapeout">Tapeout</button>
-  <button class="project-filter-btn" data-filter="simulation">Simulation</button>
-  <button class="project-filter-btn" data-filter="all">All</button>
+  <button id="btn-tapeout" class="project-filter-btn active" data-filter="tapeout">Tape-out</button>
+  <button id="btn-simulation" class="project-filter-btn" data-filter="simulation">Simulation</button>
 </div>
 
 <div id="portfolio-container">
@@ -58,65 +57,66 @@ author_profile: true
 </div>
 
 <script>
-// Filter function
-function filterProjects(filter) {
-  const items = document.querySelectorAll('.portfolio-item');
-  const buttons = document.querySelectorAll('.project-filter-btn');
-  
-  // Update button states
-  buttons.forEach(btn => {
-    if (btn.getAttribute('data-filter') === filter) {
-      btn.classList.add('active');
-    } else {
-      btn.classList.remove('active');
-    }
-  });
-  
-  // Filter items
-  items.forEach(item => {
-    const category = item.getAttribute('data-category') || 'tapeout';
-    
-    if (filter === 'all') {
-      item.classList.remove('hidden');
-    } else if (category === filter) {
-      item.classList.remove('hidden');
-    } else {
-      item.classList.add('hidden');
-    }
-  });
-}
-
-// Initialize when DOM is ready
 (function() {
-  function initFilter() {
-    const buttons = document.querySelectorAll('.project-filter-btn');
+  'use strict';
+  
+  function filterProjects(filter) {
+    console.log('Filtering by:', filter); // 디버깅용
     
-    if (buttons.length === 0) {
-      setTimeout(initFilter, 50);
+    var items = document.querySelectorAll('.portfolio-item');
+    var buttons = document.querySelectorAll('.project-filter-btn');
+    var i;
+    
+    // Update button states
+    for (i = 0; i < buttons.length; i++) {
+      if (buttons[i].getAttribute('data-filter') === filter) {
+        buttons[i].classList.add('active');
+      } else {
+        buttons[i].classList.remove('active');
+      }
+    }
+    
+    // Filter items
+    for (i = 0; i < items.length; i++) {
+      var category = items[i].getAttribute('data-category') || 'tapeout';
+      if (category === filter) {
+        items[i].classList.remove('hidden');
+      } else {
+        items[i].classList.add('hidden');
+      }
+    }
+  }
+  
+  function setupFilters() {
+    var btnTapeout = document.getElementById('btn-tapeout');
+    var btnSimulation = document.getElementById('btn-simulation');
+    
+    if (!btnTapeout || !btnSimulation) {
+      setTimeout(setupFilters, 100);
       return;
     }
     
-    // Add click handlers using event delegation
-    const buttonContainer = document.querySelector('.project-filter-buttons');
-    if (buttonContainer) {
-      buttonContainer.addEventListener('click', function(e) {
-        if (e.target && e.target.classList.contains('project-filter-btn')) {
-          const filter = e.target.getAttribute('data-filter');
-          if (filter) {
-            filterProjects(filter);
-          }
-        }
-      });
-    }
+    // Add click handlers directly to buttons
+    btnTapeout.onclick = function() {
+      filterProjects('tapeout');
+      return false;
+    };
+    
+    btnSimulation.onclick = function() {
+      filterProjects('simulation');
+      return false;
+    };
     
     // Set initial filter to tapeout
     filterProjects('tapeout');
   }
   
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initFilter);
+  // Wait for DOM to be ready
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    setTimeout(setupFilters, 1);
   } else {
-    initFilter();
+    document.addEventListener('DOMContentLoaded', setupFilters);
+    window.addEventListener('load', setupFilters);
   }
 })();
 </script>
