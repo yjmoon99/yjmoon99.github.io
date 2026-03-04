@@ -66,40 +66,5 @@ author_profile: true
 {% endfor %}
 </div>
 
-<script>
-window.filterProjects = function(filter) {
-  console.log('Filtering by:', filter);
-  
-  var items = document.querySelectorAll('.portfolio-item');
-  var buttons = document.querySelectorAll('.project-filter-btn');
-  var i, item, category;
-  
-  // Update button states
-  for (i = 0; i < buttons.length; i++) {
-    if (buttons[i].getAttribute('data-filter') === filter) {
-      buttons[i].classList.add('active');
-    } else {
-      buttons[i].classList.remove('active');
-    }
-  }
-  
-  // Filter items
-  for (i = 0; i < items.length; i++) {
-    item = items[i];
-    category = item.getAttribute('data-category') || 'tapeout';
-    
-    console.log('Item:', item, 'Category:', category, 'Filter:', filter);
-    
-    if (category === filter) {
-      item.classList.remove('hidden');
-      item.classList.add('show-item');
-    } else {
-      item.classList.add('hidden');
-      item.classList.remove('show-item');
-    }
-  }
-  
-  console.log('Filter complete. Items found:', items.length);
-};
-</script>
+<script src="{{ base_path }}/assets/js/project-filter.js"></script>
 
