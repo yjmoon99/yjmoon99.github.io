@@ -58,53 +58,66 @@ author_profile: true
 </div>
 
 <script>
+// Filter function
+function filterProjects(filter) {
+  const items = document.querySelectorAll('.portfolio-item');
+  const buttons = document.querySelectorAll('.project-filter-btn');
+  
+  // Update button states
+  buttons.forEach(btn => {
+    if (btn.getAttribute('data-filter') === filter) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+  
+  // Filter items
+  items.forEach(item => {
+    const category = item.getAttribute('data-category') || 'tapeout';
+    
+    if (filter === 'all') {
+      item.classList.remove('hidden');
+    } else if (category === filter) {
+      item.classList.remove('hidden');
+    } else {
+      item.classList.add('hidden');
+    }
+  });
+}
+
+// Initialize when DOM is ready
 (function() {
-  // Set default filter to tapeout on page load
-  let currentFilter = 'tapeout';
-  
-  function filterProjects(filter) {
-    const items = document.querySelectorAll('.portfolio-item');
+  function initFilter() {
     const buttons = document.querySelectorAll('.project-filter-btn');
     
-    // Update button states
-    buttons.forEach(btn => {
-      if (btn.dataset.filter === filter) {
-        btn.classList.add('active');
-      } else {
-        btn.classList.remove('active');
-      }
-    });
+    if (buttons.length === 0) {
+      setTimeout(initFilter, 50);
+      return;
+    }
     
-    // Filter items
-    items.forEach(item => {
-      const category = item.dataset.category || 'tapeout';
-      
-      if (filter === 'all') {
-        item.classList.remove('hidden');
-      } else if (category === filter) {
-        item.classList.remove('hidden');
-      } else {
-        item.classList.add('hidden');
-      }
-    });
-    
-    currentFilter = filter;
-  }
-  
-  // Add click handlers to filter buttons
-  document.addEventListener('DOMContentLoaded', function() {
-    const buttons = document.querySelectorAll('.project-filter-btn');
-    
-    buttons.forEach(btn => {
-      btn.addEventListener('click', function() {
-        const filter = this.dataset.filter;
-        filterProjects(filter);
+    // Add click handlers using event delegation
+    const buttonContainer = document.querySelector('.project-filter-buttons');
+    if (buttonContainer) {
+      buttonContainer.addEventListener('click', function(e) {
+        if (e.target && e.target.classList.contains('project-filter-btn')) {
+          const filter = e.target.getAttribute('data-filter');
+          if (filter) {
+            filterProjects(filter);
+          }
+        }
       });
-    });
+    }
     
     // Set initial filter to tapeout
     filterProjects('tapeout');
-  });
+  }
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFilter);
+  } else {
+    initFilter();
+  }
 })();
 </script>
 
