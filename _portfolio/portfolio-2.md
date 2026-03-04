@@ -2,6 +2,7 @@
 title: "SLYTHERIN"
 excerpt: "Redundancy-consciously Designed Video Mamba Accelerator<br/><img src='/images/project/SLYTHERIN_ISCAS25.png'>"
 collection: portfolio
+category: simulation
 ---
 
 <img src="/images/project/SLYTHERIN_ISCAS25.png" alt="SLYTHERIN ISCAS25" style="max-width: 550px; width: 100%; height: auto; margin: 20px auto; display: block;">

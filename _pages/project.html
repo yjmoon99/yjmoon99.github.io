@@ -7,8 +7,104 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .project-filter-buttons {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+  }
+  
+  .project-filter-btn {
+    padding: 0.6em 1.5em;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: 2px solid #333;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .project-filter-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .project-filter-btn.active {
+    background-color: #333;
+    color: white;
+  }
+  
+  .portfolio-item {
+    transition: opacity 0.3s ease, display 0.3s ease;
+  }
+  
+  .portfolio-item.hidden {
+    display: none;
+  }
+</style>
 
+<div class="project-filter-buttons">
+  <button class="project-filter-btn active" data-filter="tapeout">Tapeout</button>
+  <button class="project-filter-btn" data-filter="simulation">Simulation</button>
+  <button class="project-filter-btn" data-filter="all">All</button>
+</div>
+
+<div id="portfolio-container">
 {% for post in site.portfolio %}
   {% include archive-single-portfolio.html %}
 {% endfor %}
+</div>
+
+<script>
+(function() {
+  // Set default filter to tapeout on page load
+  let currentFilter = 'tapeout';
+  
+  function filterProjects(filter) {
+    const items = document.querySelectorAll('.portfolio-item');
+    const buttons = document.querySelectorAll('.project-filter-btn');
+    
+    // Update button states
+    buttons.forEach(btn => {
+      if (btn.dataset.filter === filter) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+    
+    // Filter items
+    items.forEach(item => {
+      const category = item.dataset.category || 'tapeout';
+      
+      if (filter === 'all') {
+        item.classList.remove('hidden');
+      } else if (category === filter) {
+        item.classList.remove('hidden');
+      } else {
+        item.classList.add('hidden');
+      }
+    });
+    
+    currentFilter = filter;
+  }
+  
+  // Add click handlers to filter buttons
+  document.addEventListener('DOMContentLoaded', function() {
+    const buttons = document.querySelectorAll('.project-filter-btn');
+    
+    buttons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const filter = this.dataset.filter;
+        filterProjects(filter);
+      });
+    });
+    
+    // Set initial filter to tapeout
+    filterProjects('tapeout');
+  });
+})();
+</script>
 

@@ -8,7 +8,7 @@
 {% assign title_key = post.title | strip %}
 
 <div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" style="background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1.5em; margin-bottom: 1.5em;">
+  <article class="archive__item portfolio-item" itemscope itemtype="http://schema.org/CreativeWork" data-category="{% if post.category %}{{ post.category }}{% else %}tapeout{% endif %}" style="background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1.5em; margin-bottom: 1.5em;">
     <style>
       .portfolio-excerpt {
         display: flex;
