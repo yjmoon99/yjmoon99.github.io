@@ -35,6 +35,7 @@
         display: block !important;
         float: none !important;
         margin: 0 !important;
+        loading: lazy;
       }
       .portfolio-excerpt-images.single-image img {
         max-width: 280px !important;
@@ -93,7 +94,11 @@
       <div class="portfolio-excerpt-images {% if image_count == 1 %}single-image{% endif %}">
         {% for img_part in img_split offset: 1 %}
           {% assign img_tag_start = '<img' | append: img_part | split: '>' | first %}
-          {% assign img_full_tag = img_tag_start | append: '>' %}
+          {% if img_tag_start contains 'loading=' %}
+            {% assign img_full_tag = img_tag_start | append: '>' %}
+          {% else %}
+            {% assign img_full_tag = img_tag_start | replace: ' src=', ' loading="lazy" src=' | append: '>' %}
+          {% endif %}
           {{ img_full_tag }}
         {% endfor %}
       </div>

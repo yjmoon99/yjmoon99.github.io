@@ -53,6 +53,21 @@ author_profile: true
   .portfolio-item.show-item {
     display: block !important;
   }
+  
+  /* 숨겨진 항목의 이미지 로딩 방지 */
+  .portfolio-item.hidden img {
+    content: none;
+  }
+  
+  /* 이미지 lazy loading */
+  .portfolio-item img {
+    loading: lazy;
+  }
+  
+  /* 초기 렌더링 최적화 */
+  #portfolio-container {
+    contain: layout style paint;
+  }
 </style>
 
 <div class="project-filter-buttons">
@@ -66,5 +81,5 @@ author_profile: true
 {% endfor %}
 </div>
 
-<script src="{{ base_path }}/assets/js/project-filter.js"></script>
+<script src="{{ base_path }}/assets/js/project-filter.js" defer></script>
 
