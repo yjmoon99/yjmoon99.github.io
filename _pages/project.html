@@ -46,7 +46,12 @@ author_profile: true
   
   /* 초기 상태: simulation 항목 숨기기 */
   .portfolio-item[data-category="simulation"] {
-    display: none;
+    display: none !important;
+  }
+  
+  /* 필터링된 항목 표시 */
+  .portfolio-item.show-item {
+    display: block !important;
   }
 </style>
 
@@ -63,6 +68,8 @@ author_profile: true
 
 <script>
 window.filterProjects = function(filter) {
+  console.log('Filtering by:', filter);
+  
   var items = document.querySelectorAll('.portfolio-item');
   var buttons = document.querySelectorAll('.project-filter-btn');
   var i, item, category;
@@ -81,14 +88,18 @@ window.filterProjects = function(filter) {
     item = items[i];
     category = item.getAttribute('data-category') || 'tapeout';
     
+    console.log('Item:', item, 'Category:', category, 'Filter:', filter);
+    
     if (category === filter) {
       item.classList.remove('hidden');
-      item.style.display = '';
+      item.classList.add('show-item');
     } else {
       item.classList.add('hidden');
-      item.style.display = 'none';
+      item.classList.remove('show-item');
     }
   }
+  
+  console.log('Filter complete. Items found:', items.length);
 };
 </script>
 
