@@ -62,10 +62,10 @@ IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Sangwoo Ha, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Sunjoo Whang, Wooyoung Jo, Gwangtae Park, Soyeon Um, Junha Ryu, Yurim Jo, and Hoi-Jun Yoo</span>
 
-IEEE International Conference on Solid-State Circuits (**ISSCC**), **2026** <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
+IEEE International Conference on Solid-State Circuits (**ISSCC**), **2026** <em style="color: red; font-style: italic; font-weight: bold;"></em><br>
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
-[Paper](#){: .btn .btn--danger .btn--small}
+[Paper](https://ieeexplore.ieee.org/document/11409285){: .btn .btn--danger .btn--small}
 
 </div>
 
