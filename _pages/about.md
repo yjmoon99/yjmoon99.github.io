@@ -43,7 +43,7 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 </div> -->
 
 ### Conference Papers
-<div class="notice notice--info" markdown="1" style="border-left: 4px solid transparent; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 🎥 **NOVA: A 5.3mJ/frame Fully Integrated Neural Video SoC with Content-Adaptive Architecture for 4K Real-time Encoding/Decoding and Processing**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Jungjun Oh, Jingu Lee, Wooyoung Jo, Minsung Kim, and Hoi-Jun Yoo</span>
