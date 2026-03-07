@@ -53,7 +53,7 @@ IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
 
 [Paper](#){: .btn .btn--danger .btn--small}
 
-<em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"NOVA unlocks End-to-end Video Processing!!"</em>
+<em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"NOVA integrates end-to-end video processing onto a single chip!!"</em>
 </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
