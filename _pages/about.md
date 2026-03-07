@@ -43,6 +43,18 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 </div> -->
 
 ### Conference Papers
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid transparent; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
+🎥 **NOVA: A 5.3mJ/frame Fully Integrated Neural Video SoC with Content-Adaptive Architecture for 4K Real-time Encoding/Decoding and Processing**
+
+<span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Jungjun Oh, Jingu Lee, Wooyoung Jo, Minsung Kim, and Hoi-Jun Yoo</span>
+
+IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**  
+<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+
+[Paper](#){: .btn .btn--danger .btn--small}
+
+<em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"NOVA unlocks End-to-end Video Processing!!"</em>
+</div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 🐍 **A 2.67 mJ/frame Video Mamba Accelerator with Importance-aware Redundancy Elimination and SSM Computing Reformulation**
