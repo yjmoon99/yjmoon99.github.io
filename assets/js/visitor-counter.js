@@ -1,10 +1,11 @@
-// Visitor Counter - localStorage based (reliable)
+// Visitor Counter - Global counter using CountAPI (works across all devices)
 (function() {
   'use strict';
   
-  const SESSION_KEY = 'visitor_session';
-  const TOTAL_KEY = 'visitor_total';
-  const TODAY_KEY_PREFIX = 'visitor_today_';
+  // Use a unique namespace for this site
+  const SITE_NAMESPACE = 'yjmoon99-github-io';
+  const TOTAL_KEY = 'total';
+  const TODAY_KEY_PREFIX = 'today-';
   
   // Get today's date key
   function getTodayKey() {
@@ -15,15 +16,13 @@
     return `${TODAY_KEY_PREFIX}${year}-${month}-${day}`;
   }
   
-  // Get stored count
-  function getStoredCount(key) {
-    const stored = localStorage.getItem(key);
-    return stored ? parseInt(stored, 10) : 0;
-  }
-  
-  // Set stored count
-  function setStoredCount(key, value) {
-    localStorage.setItem(key, value.toString());
+  // CountAPI base URL
+  function getCountAPIUrl(key, operation = 'get') {
+    const namespace = `${SITE_NAMESPACE}-${key}`;
+    if (operation === 'hit') {
+      return `https://api.countapi.xyz/hit/${namespace}`;
+    }
+    return `https://api.countapi.xyz/get/${namespace}`;
   }
   
   // Update display
@@ -58,41 +57,67 @@
     }
   }
   
+  // Fetch count from API
+  function fetchCount(key, callback) {
+    const url = getCountAPIUrl(key, 'get');
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        if (data.value !== undefined) {
+          callback(data.value);
+        } else {
+          callback(0);
+        }
+      })
+      .catch(error => {
+        console.error('Error fetching count:', error);
+        callback(0);
+      });
+  }
+  
+  // Increment count via API
+  function incrementCount(key, callback) {
+    const url = getCountAPIUrl(key, 'hit');
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        if (data.value !== undefined) {
+          callback(data.value);
+        } else {
+          callback(0);
+        }
+      })
+      .catch(error => {
+        console.error('Error incrementing count:', error);
+        callback(0);
+      });
+  }
+  
   // Initialize counter
   function init() {
     const todayKey = getTodayKey();
+    const totalKey = TOTAL_KEY;
+    const todayCountKey = todayKey;
     
-    // Get current counts
-    let total = getStoredCount(TOTAL_KEY);
-    let today = getStoredCount(todayKey);
+    // Check if this is a new visit (using sessionStorage to avoid double counting on same session)
+    const sessionKey = 'visitor_session_' + todayKey;
+    const hasVisitedToday = sessionStorage.getItem(sessionKey);
     
-    // Get current page URL (without hash and query parameters for comparison)
-    const currentPage = window.location.pathname;
-    const lastVisitedPage = sessionStorage.getItem('last_visited_page');
-    
-    // Check if this is a different page (new visit)
-    // Only increment if:
-    // 1. No last visited page recorded (first visit ever)
-    // 2. Current page is different from last visited page (navigated to different page)
-    const isNewPage = !lastVisitedPage || lastVisitedPage !== currentPage;
-    
-    if (isNewPage) {
-      // New page visit - increment
-      total += 1;
-      today += 1;
-      
-      // Save counts
-      setStoredCount(TOTAL_KEY, total);
-      setStoredCount(todayKey, today);
-      
-      // Record current page
-      sessionStorage.setItem('last_visited_page', currentPage);
-      
-      // Update display with feedback
-      updateDisplay(total, today, true);
+    if (!hasVisitedToday) {
+      // New visit - increment both counters
+      incrementCount(totalKey, function(total) {
+        incrementCount(todayCountKey, function(today) {
+          sessionStorage.setItem(sessionKey, 'true');
+          updateDisplay(total, today, true);
+        });
+      });
     } else {
-      // Same page - just show counts (no increment)
-      updateDisplay(total, today, false);
+      // Already visited today - just fetch and display
+      fetchCount(totalKey, function(total) {
+        fetchCount(todayCountKey, function(today) {
+          updateDisplay(total, today, false);
+        });
+      });
     }
   }
   
