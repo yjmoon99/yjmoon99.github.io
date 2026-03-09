@@ -48,32 +48,6 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
       {% endif %}
-      <li style="margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--global-border-color);">
-        <span style="color: #666; font-size: 0.9em; display: block; line-height: 1.8;">
-          <i class="fas fa-fw fa-eye icon-pad-right" aria-hidden="true"></i>Visitors<br>
-          <span style="padding-left: 1.5em; font-size: 0.85em; display: block; margin-top: 2px; position: relative;">
-            Today: <span id="visitor-counter-today" style="color: #0066cc; font-weight: bold;">0</span>
-            <span id="visitor-feedback-today" style="display: none; color: #28a745; font-weight: bold; margin-left: 5px; animation: fadeOut 2s ease-out;">+1</span>
-          </span>
-          <span style="padding-left: 1.5em; font-size: 0.85em; display: block; margin-top: 2px; position: relative;">
-            Total: <span id="visitor-counter-total" style="color: #0066cc; font-weight: bold;">0</span>
-            <span id="visitor-feedback-total" style="display: none; color: #28a745; font-weight: bold; margin-left: 5px; animation: fadeOut 2s ease-out;">+1</span>
-          </span>
-        </span>
-      </li>
-      <style>
-        @keyframes fadeOut {
-          0% { opacity: 1; transform: translateY(0); }
-          100% { opacity: 0; transform: translateY(-10px); }
-        }
-        @keyframes highlight {
-          0% { background-color: rgba(0, 102, 204, 0.2); }
-          100% { background-color: transparent; }
-        }
-        .counter-highlight {
-          animation: highlight 1s ease-out;
-        }
-      </style>
       {% if author.academia %}
         <li><a href="{{ author.academia }}"><i class="ai ai-academia ai-fw icon-pad-right" aria-hidden="true"></i>Academia</a></li>
       {% endif %}
@@ -195,5 +169,3 @@
     </ul>
   </div>
 </div>
-
-<script src="{{ base_path }}/assets/js/visitor-counter.js"></script>
