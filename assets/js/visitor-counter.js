@@ -1,4 +1,4 @@
-// Visitor Counter - Global counter using CountAPI (works across all devices)
+// Visitor Counter - Hybrid approach: CountAPI + localStorage fallback
 (function() {
   'use strict';
   
@@ -6,6 +6,7 @@
   const SITE_NAMESPACE = 'yjmoon99-github-io';
   const TOTAL_KEY = 'total';
   const TODAY_KEY_PREFIX = 'today-';
+  const LOCAL_STORAGE_PREFIX = 'visitor_local_';
   
   // Get today's date key
   function getTodayKey() {
@@ -23,6 +24,17 @@
       return `https://api.countapi.xyz/hit/${namespace}`;
     }
     return `https://api.countapi.xyz/get/${namespace}`;
+  }
+  
+  // Get from localStorage as fallback
+  function getLocalStorageCount(key) {
+    const stored = localStorage.getItem(LOCAL_STORAGE_PREFIX + key);
+    return stored ? parseInt(stored, 10) : 0;
+  }
+  
+  // Set to localStorage as backup
+  function setLocalStorageCount(key, value) {
+    localStorage.setItem(LOCAL_STORAGE_PREFIX + key, value.toString());
   }
   
   // Update display
@@ -57,39 +69,65 @@
     }
   }
   
-  // Fetch count from API
+  // Fetch count from API with localStorage fallback
   function fetchCount(key, callback) {
     const url = getCountAPIUrl(key, 'get');
+    const fallbackCount = getLocalStorageCount(key);
+    
     fetch(url)
-      .then(response => response.json())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
       .then(data => {
-        if (data.value !== undefined) {
+        if (data && data.value !== undefined) {
+          // Update localStorage with API value
+          setLocalStorageCount(key, data.value);
           callback(data.value);
         } else {
-          callback(0);
+          console.warn('Invalid response from API, using localStorage:', fallbackCount);
+          callback(fallbackCount);
         }
       })
       .catch(error => {
-        console.error('Error fetching count:', error);
-        callback(0);
+        console.warn('Error fetching count from API, using localStorage:', error);
+        callback(fallbackCount);
       });
   }
   
-  // Increment count via API
+  // Increment count via API with localStorage fallback
   function incrementCount(key, callback) {
     const url = getCountAPIUrl(key, 'hit');
+    const currentLocal = getLocalStorageCount(key);
+    
     fetch(url)
-      .then(response => response.json())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
       .then(data => {
-        if (data.value !== undefined) {
+        if (data && data.value !== undefined) {
+          // Update localStorage with API value
+          setLocalStorageCount(key, data.value);
           callback(data.value);
         } else {
-          callback(0);
+          // Fallback: increment localStorage
+          const newValue = currentLocal + 1;
+          setLocalStorageCount(key, newValue);
+          console.warn('Invalid API response, using localStorage:', newValue);
+          callback(newValue);
         }
       })
       .catch(error => {
-        console.error('Error incrementing count:', error);
-        callback(0);
+        // Fallback: increment localStorage
+        const newValue = currentLocal + 1;
+        setLocalStorageCount(key, newValue);
+        console.warn('Error incrementing via API, using localStorage:', error);
+        callback(newValue);
       });
   }
   
@@ -104,19 +142,53 @@
     const hasVisitedToday = sessionStorage.getItem(sessionKey);
     
     if (!hasVisitedToday) {
-      // New visit - increment both counters
-      incrementCount(totalKey, function(total) {
-        incrementCount(todayCountKey, function(today) {
+      // New visit - increment both counters in parallel
+      let totalCount = 0;
+      let todayCount = 0;
+      let totalLoaded = false;
+      let todayLoaded = false;
+      
+      function checkAndUpdate() {
+        if (totalLoaded && todayLoaded) {
           sessionStorage.setItem(sessionKey, 'true');
-          updateDisplay(total, today, true);
-        });
+          updateDisplay(totalCount, todayCount, true);
+        }
+      }
+      
+      incrementCount(totalKey, function(total) {
+        totalCount = total;
+        totalLoaded = true;
+        checkAndUpdate();
+      });
+      
+      incrementCount(todayCountKey, function(today) {
+        todayCount = today;
+        todayLoaded = true;
+        checkAndUpdate();
       });
     } else {
       // Already visited today - just fetch and display
+      let totalCount = 0;
+      let todayCount = 0;
+      let totalLoaded = false;
+      let todayLoaded = false;
+      
+      function checkAndUpdate() {
+        if (totalLoaded && todayLoaded) {
+          updateDisplay(totalCount, todayCount, false);
+        }
+      }
+      
       fetchCount(totalKey, function(total) {
-        fetchCount(todayCountKey, function(today) {
-          updateDisplay(total, today, false);
-        });
+        totalCount = total;
+        totalLoaded = true;
+        checkAndUpdate();
+      });
+      
+      fetchCount(todayCountKey, function(today) {
+        todayCount = today;
+        todayLoaded = true;
+        checkAndUpdate();
       });
     }
   }
