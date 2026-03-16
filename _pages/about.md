@@ -122,7 +122,7 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), **20
 [Paper](#){: .btn .btn--danger .btn--small}
 <!-- [Paper](#){: .btn .btn--danger .btn--small} [Code](#){: .btn .btn--small} -->
 
-<em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"SLYTHERIN's Tiki-Taka of Redundancy in Mamba!!"</em>
+<em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"SLYTHERIN's Tiki-Taka of Redundancy in State-Space Model!!"</em>
 </div>
 
 
