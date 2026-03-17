@@ -1,7 +1,7 @@
 ---
 title: "ISSCC'26 Demo Session"
 collection: talks
-type: "Demo"
+type: "Poster"
 permalink: /talks/2026-02-16-isscc26-demo-session
 venue: "ISSCC 2026"
 date: 2026-02-16
