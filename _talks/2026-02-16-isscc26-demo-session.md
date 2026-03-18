@@ -16,5 +16,3 @@ The demo of "SMoLPU: 122.1μJ/Token Sparse MoE-based Speculative Decoding Langua
 <img src="/images/talk/isscc26_2.jpg" alt="ISSCC'26 Demo 2" style="max-width: 500px; width: 100%; height: auto;">
 
 <img src="/images/talk/isscc26_3.jpg" alt="ISSCC'26 Demo 3" style="max-width: 500px; width: 100%; height: auto;">
-
-<img src="/images/talk/isscc26_4.jpg" alt="ISSCC'26 Demo 4" style="max-width: 500px; width: 100%; height: auto;">
