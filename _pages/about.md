@@ -113,6 +113,7 @@ IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 🎬 **LightNVC: Unlocking On-Device Neural Video Coding via Lightweight Group Quantization and Cross-Stage Fusion**
+
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Hyeonsup Jung, and Hoi-Jun Yoo</span>
 
 IEEE Journal on Emerging and Selected Topics in Circuits and Systems (**JETCAS**), **2026**  <em style="color: red; font-style: italic; font-weight: bold;">(Under Review)</em><br>
