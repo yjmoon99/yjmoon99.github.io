@@ -26,10 +26,10 @@ author:
   avatar           : "YoungjinMoon_profile.png"
   name             : "Youngjin Moon"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student
-    @ Semiconductor System Lab (SSL), KAIST"
+  bio              : "PhD student @ Semiconductor System Lab (SSL), [KAIST](https://ssl.kaist.ac.kr/)"
   location         : "Daejeon, South Korea"
   employer         : "KAIST"
+  employer_url     : "https://ssl.kaist.ac.kr/"
   uri              : # URL
   email            : "yjmoon99@kaist.ac.kr" 
 
