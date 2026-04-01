@@ -72,10 +72,10 @@ IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid transparent; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 **An Energy-Efficient LLM Processor for Mobile Devices with Pipelined NPU-CIM**
 
-<span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Sangwoo Ha, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Sunjoo Whang, Wooyoung Jo, Gwangtae Park, Soyeon Um, Junha Ryu, Yurim Jo, and Hoi-Jun Yoo</span>
+<span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Sangwoo Ha, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Sunjoo Whang, Wooyoung Jo, Gwangtae Park, Soyeon Um, Junha Ryu, Yurim Jo, Jongjun Park, and Hoi-Jun Yoo</span>
 
 IEEE Symposium on Low-Power and High-Speed Chips (**COOL Chips**), **2026** <em style="color: red; font-style: italic; font-weight: bold;"></em><br>
-<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+<span style="background-color: #ffc107; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](https://ieeexplore.ieee.org/document/11409285){: .btn .btn--danger .btn--small}
 
