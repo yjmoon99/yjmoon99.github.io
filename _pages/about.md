@@ -48,7 +48,7 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Jungjun Oh, Jingu Lee, Wooyoung Jo, Minsung Kim, and Hoi-Jun Yoo</span>
 
-IEEE Symposium on VLSI Circuits (**S.VLSI**), **2026**  <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
+IEEE Symposium on VLSI Technology and Circuits (**S.VLSI**), **2026**  <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small}
@@ -113,7 +113,7 @@ IEEE International Conference on Solid-State Circuits (**ISSCC**), **2026** <em 
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Soyeon Kim, Hankyul Kwon, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Hongseok Lee, Junha Ryu, Zhamaliddin Kalzhan, Sangyeob Kim, Wooyoung Jo, and Hoi-Jun Yoo</span>
 
-IEEE Symposium on VLSI Circuits (**S.VLSI**), **2025**  
+IEEE Symposium on VLSI Technology and Circuits (**S.VLSI**), **2025**  
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](https://ieeexplore.ieee.org/abstract/document/11075220){: .btn .btn--danger .btn--small}
