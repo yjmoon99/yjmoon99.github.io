@@ -17,6 +17,8 @@ url                      : https://yjmoon99.github.io/ # The base hostname & pro
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yjmoon99/yjmoon99.github.io"
+# Sidebar CV link appends ?v=… so phones fetch a fresh PDF after each deploy. Override with cv_cache_bust: "any-new-string" if needed.
+# cv_cache_bust            : "20260213"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
