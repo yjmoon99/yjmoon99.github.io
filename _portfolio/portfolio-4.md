@@ -1,6 +1,6 @@
 ---
 title: "NOVA"
-excerpt: "Neural Video Codec-integrated Video Processor<br/><img src='/images/project/NOVA_VLSI26_2509_2601.png'><br/><img src='/images/project/NOVA_VLSI26_architecture.png'>"
+excerpt: "End-to-End Neural Video Processing SoC<br/><img src='/images/project/NOVA_VLSI26_2509_2601.png'><br/><img src='/images/project/NOVA_VLSI26_architecture.png'>"
 collection: portfolio
 category: tapeout
 ---
@@ -11,7 +11,7 @@ category: tapeout
 </div>
 
 <div style="background-color: #ffffff; border: 1px solid #e0e0e0; padding: 12px 15px; margin: 15px 0; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<strong style="color: #333333; font-size: 0.95em;">📅 Tape-out:</strong> <span style="color: #555555; font-weight: normal; font-size: 0.95em;">2025/09</span> | <strong style="color: #333333; font-size: 0.95em;">📅 Wafer-out:</strong> <span style="color: #555555; font-weight: normal; font-size: 0.95em;">2026/01</span>
+<strong style="color: #333333; font-size: 0.95em;">📅 Tape-out:</strong> <span style="color: #555555; font-weight: normal; font-size: 0.95em;">2025/09</span> | <strong style="color: #333333; font-size: 0.95em;">📅 Wafer-out:</strong> <span style="color: #555555; font-weight: normal; font-size: 0.95em;">2026/01</span> | <strong style="color: #333333; font-size: 0.95em;">Process:</strong> <span style="color: #555555; font-weight: normal; font-size: 0.95em;">Samsung 28nm LPP</span>
 </div>
 
 <img src="/images/project/NOVA_VLSI26_architecture.png" alt="NOVA Architecture" style="max-width: 400px; width: 100%; height: auto; margin: 20px auto; display: block;">
