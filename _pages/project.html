@@ -76,7 +76,8 @@ author_profile: true
 </div>
 
 <div id="portfolio-container">
-{% for post in site.portfolio %}
+{% assign portfolio_sorted = site.portfolio | sort: "date" | reverse %}
+{% for post in portfolio_sorted %}
   {% include archive-single-portfolio.html %}
 {% endfor %}
 </div>

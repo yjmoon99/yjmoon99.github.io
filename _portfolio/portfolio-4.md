@@ -3,6 +3,7 @@ title: "NOVA"
 excerpt: "End-to-End Neural Video Processing SoC<br/><img src='/images/project/NOVA_VLSI26_2509_2601.png'><br/><img src='/images/project/NOVA_VLSI26_architecture.png'>"
 collection: portfolio
 category: tapeout
+date: 2026-01-01
 ---
 
 <img src="/images/project/NOVA_VLSI26_2509_2601.png" alt="NOVA VLSI26" style="max-width: 400px; width: 100%; height: auto; margin: 20px auto; display: block;">

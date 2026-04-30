@@ -3,6 +3,7 @@ title: "SMoLPU"
 excerpt: "Sparse MoE-based Speculative Decoding LLM Processor<br/><img src='/images/project/SMoLPU_ISSCC26_2503_2507.png'><br/><img src='/images/project/SMoLPU_ISSCC26_architecture.png'>"
 collection: portfolio
 category: tapeout
+date: 2025-07-01
 ---
 
 <img src="/images/project/SMoLPU_ISSCC26_2503_2507.png" alt="SMoLPU ISSCC26" style="max-width: 400px; width: 100%; height: auto; margin: 20px auto; display: block;">
