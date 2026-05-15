@@ -159,7 +159,7 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), **20
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Sangwoo Ha, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Sunjoo Whang, Wooyoung Jo, Gwangtae Park, Soyeon Um, Junha Ryu, Yurim Jo, and Hoi-Jun Yoo</span>
 
 IEEE Journal of Solid-State Circuits (**JSSC**), **2026**  
-<span style="background-color: #ffc107; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">SCI Q1</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">SCI Q1</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small}
 <!-- [Paper](https://ieeexplore.ieee.org/abstract/document/11063416){: .btn .btn--danger .btn--small}  -->
