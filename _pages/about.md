@@ -124,7 +124,7 @@ IEEE Symposium on VLSI Technology and Circuits (**S.VLSI**), **2025**
 ### Journal Papers
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid #22b3eb; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
-🎬 **LiteNVC: Unlocking On-Device Neural Video Coding via Mantissa-Exponent Factorized Quantization and Cross-Stage Fusion**
+🎬 **LiteNVC: Unlocking On-Device Neural Video Coding via Mantissa-Exponent Factorized Group Quantization and Cross-Stage Fusion**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Hyeonrae Kim, Hyeonseop Jung, and Hoi-Jun Yoo</span>
 
