@@ -144,7 +144,7 @@ IEEE Journal on Emerging and Selected Topics in Circuits and Systems (**JETCAS**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Soyeon Kim, Donghyeon Han, and Hoi-Jun Yoo</span>
 
-IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), **2026**  <em style="color: red; font-style: italic; font-weight: bold;">(Under Review)</em><br>
+IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), **2026**
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">SCI Q1</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small}
