@@ -1,11 +1,11 @@
 ---
-title: "VLSI'26 Accelerators for Spatial and Immersive Visual Computing"
+title: "S.VLSI'26 Accelerators for Spatial and Immersive Visual Computing"
 collection: talks
 type: "Talk"
-permalink: /talks/2026-06-22-accelerators-spatial-immersive-visual-computing
-venue: "VLSI 2026"
-date: 2026-06-22
-location: "Kyoto, Japan"
+permalink: /talks/2026-06-16-accelerators-spatial-immersive-visual-computing
+venue: "S.VLSI 2026"
+date: 2026-06-16
+location: "Honolulu, Hawaii, USA"
 excerpt: ""
 ---
 
