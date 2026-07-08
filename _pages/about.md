@@ -49,7 +49,7 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Jungjun Oh, Jingu Lee, Wooyoung Jo, Minsung Kim, and Hoi-Jun Yoo</span>
 
 IEEE Symposium on VLSI Technology and Circuits (**S.VLSI**), **2026**  <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
-<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #6f42c1; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Architecture</span>
 
 [Paper](#){: .btn .btn--danger .btn--small}
 
@@ -67,7 +67,22 @@ IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 [Paper](https://ieeexplore.ieee.org/abstract/document/11042937){: .btn .btn--danger .btn--small}
 
 <em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"When Mamba Awakened with SLYTHERIN!!"</em>
+
+
 </div>
+
+<div class="notice notice--info" markdown="1" style="border-left: 4px solid transparent; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
+**EdgeXpert: An Edge Device for Memory-Efficient LLM Inference with Mixture-of-Experts and Speculative Decoding**
+
+<span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"> Sangwoo Ha, Hyunwoo Seo, Yurim Jo, <strong><u>Youngjin Moon</u></strong>, and Hoi-Jun Yoo</span>
+
+IEEE/ACM International Symposium on Microarchitecture (**MICRO**), **2026** <em style="color: red; font-style: italic; font-weight: bold;"></em><br>
+<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+
+[Paper](https://ieeexplore.ieee.org/document/11409285){: .btn .btn--danger .btn--small}
+
+</div>
+
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid transparent; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 **SMoLPU: A 122.1 μJ/token Sparse MoE-based Speculative Decoding LLM Processing Unit with Adaptive-Offload NPU-CIM Core**
