@@ -49,7 +49,7 @@ Advised by Professor <span style="color: #0066cc;">**Hoi-Jun Yoo**</span> in <sp
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"><strong><u>Youngjin Moon</u></strong>, Sangwoo Ha, Junha Ryu, Jungjun Oh, Jingu Lee, Wooyoung Jo, Minsung Kim, and Hoi-Jun Yoo</span>
 
 IEEE Symposium on VLSI Technology and Circuits (**S.VLSI**), **2026**  <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
-<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #6f42c1; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Architecture</span>
+<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 [Paper](#){: .btn .btn--danger .btn--small}
 
@@ -76,10 +76,11 @@ IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"> Sangwoo Ha, Hyunwoo Seo, Yurim Jo, <strong><u>Youngjin Moon</u></strong>, and Hoi-Jun Yoo</span>
 
-IEEE/ACM International Symposium on Microarchitecture (**MICRO**), **2026** <em style="color: red; font-style: italic; font-weight: bold;"></em><br>
-<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
+IEEE/ACM International Symposium on Microarchitecture (**MICRO**), **2026** <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
+<span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #6f42c1; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Architecture</span>
 
-[Paper](https://ieeexplore.ieee.org/document/11409285){: .btn .btn--danger .btn--small}
+
+[Paper](#){: .btn .btn--danger .btn--small}
 
 </div>
 
