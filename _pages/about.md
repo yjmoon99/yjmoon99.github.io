@@ -76,7 +76,7 @@ IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"> Jungwan Lee, Seongyon Hong, <strong><u>Youngjin Moon</u></strong>, Jingu Lee, Junhyuk Lee, Yuseon Choi, Jungjun Oh, and Hoi-Jun Yoo</span>
 
-Asian Solid-State Circuits Conference (**ASSCC**), **2026** <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
+IEEE Asian Solid-State Circuits Conference (**ASSCC**), **2026** <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
 <span style="background-color: #ffc107; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Major</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
 
