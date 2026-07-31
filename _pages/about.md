@@ -83,8 +83,6 @@ IEEE Asian Solid-State Circuits Conference (**ASSCC**), **2026** <em style="colo
 
 [Paper](#){: .btn .btn--danger .btn--small}
 
-</div>
-
 
 </div>
 
