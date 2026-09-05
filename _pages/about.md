@@ -181,7 +181,6 @@ IEEE Journal on Emerging and Selected Topics in Circuits and Systems (**JETCAS**
 IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), **2026**<br>
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">SCI Q1</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
-[Paper](https://ieeexplore.ieee.org/document/11576089){: .btn .btn--danger .btn--small} 
 
 <em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"SLYTHERIN's Tiki-Taka of Redundancy in State-Space Model!!"</em>
 </div>
@@ -191,10 +190,10 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), **20
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Sangwoo Ha, Jingu Lee, <strong><u>Youngjin Moon</u></strong>, Sunjoo Whang, Wooyoung Jo, Gwangtae Park, Soyeon Um, Junha Ryu, Yurim Jo, and Hoi-Jun Yoo</span>
 
-IEEE Journal of Solid-State Circuits (**JSSC**), **2026**  <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
+IEEE Journal of Solid-State Circuits (**JSSC**), **2026**<br>
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">SCI Q1</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
 
-[Paper](#){: .btn .btn--danger .btn--small}
+[Paper](https://ieeexplore.ieee.org/document/11678131){: .btn .btn--danger .btn--small} 
 <!-- [Paper](https://ieeexplore.ieee.org/abstract/document/11063416){: .btn .btn--danger .btn--small}  -->
 
 </div>
