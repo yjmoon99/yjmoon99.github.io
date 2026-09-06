@@ -106,7 +106,7 @@ IEEE Asian Solid-State Circuits Conference (**ASSCC**), **2026** <em style="colo
 
 <span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;"> Sangwoo Ha, Hyunwoo Seo, Yurim Jo, <strong><u>Youngjin Moon</u></strong>, and Hoi-Jun Yoo</span>
 
-IEEE/ACM International Symposium on Microarchitecture (**MICRO**), **2026** 
+IEEE/ACM International Symposium on Microarchitecture (**MICRO**), **2026** <em style="color: red; font-style: italic; font-weight: bold;"></em><br>
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #6f42c1; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Architecture</span>
 
 [Paper](https://arxiv.org/abs/2608.05303){: .btn .btn--danger .btn--small}
