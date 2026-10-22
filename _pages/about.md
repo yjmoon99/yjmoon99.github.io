@@ -86,7 +86,7 @@ IEEE International Conference on Solid-State Circuits (**ISSCC**), **2027** <em 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid transparent; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 **FlashGroot: A 14.6mJ/Action End-to-End Energy-Efficient VLA System-on-Chip with Action-Aware Inference Architecture for Reactive Mobile Physical Agents**
 
-<span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Sangmyoung Lee, Hyungnam Joo, Minsung Kim, Chaeyun Jeong, Yuseon Choi, Wonhun Park, Seryeong Kim, Seokchan Song, and Hoi-Jun Yoo</span>
+<span style="color: #000; font-weight: bold;">Authors:</span> <span style="color: #000;">Jongjun Park, <strong><u>Youngjin Moon</u></strong>, Sangmyoung Lee, Hyungnam Joo, Minsung Kim, Chaeyun Jeong, Yuseon Choi, Wonhoon Park, Seryeong Kim, Seokchan Song, and Hoi-Jun Yoo</span>
 
 IEEE International Conference on Solid-State Circuits (**ISSCC**), **2027** <em style="color: red; font-style: italic; font-weight: bold;">(To appear)</em><br>
 <span style="background-color: #ff9800; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Top-Tier</span> <span style="background-color: #17a2b8; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">Circuit</span>
