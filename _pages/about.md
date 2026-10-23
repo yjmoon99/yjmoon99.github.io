@@ -68,7 +68,7 @@ IEEE International Symposium on Circuits and Systems (**ISCAS**), **2025**
 
 <em style="color: rgb(252, 100, 100); font-weight: bold; font-style: italic;">"When Mamba Awakened with SLYTHERIN!!"</em>
 
-</div>
+<!-- </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid transparent; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 **WPU: A 130.2mW 23.6ms Real-Time Adaptive World-Model Processing Unit with Selective Imaginative 
@@ -93,7 +93,7 @@ IEEE International Conference on Solid-State Circuits (**ISSCC**), **2027** <em 
 
 [Paper](#){: .btn .btn--danger .btn--small}
 
-</div>
+</div> -->
 
 
 
