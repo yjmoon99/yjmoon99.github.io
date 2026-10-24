@@ -81,7 +81,7 @@ IEEE International Conference on Solid-State Circuits (**ISSCC**), **2027** <em 
 
 [Paper](#){: .btn .btn--danger .btn--small} -->
 
-</div>
+<!-- </div>
 
 <div class="notice notice--info" markdown="1" style="border-left: 4px solid transparent; margin-bottom: 1.5em; background-color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 4px; padding: 1em; font-size: 1.6em;">
 **FlashGroot: A 14.6mJ/Action End-to-End Energy-Efficient VLA System-on-Chip with Action-Aware Inference Architecture for Reactive Mobile Physical Agents**
@@ -93,7 +93,7 @@ IEEE International Conference on Solid-State Circuits (**ISSCC**), **2027** <em 
 
 [Paper](#){: .btn .btn--danger .btn--small}
 
-</div>
+</div> -->
 
 
 
